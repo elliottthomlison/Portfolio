@@ -12,6 +12,7 @@ import Jungle from "../images/Jungle.png"
 import MiTienda from "../images/MiTienda.gif"
 import MiCine from "../images/MiCine.gif"
 import Codewars from "../images/Codewars.png"
+import Yelp from "../images/Yelp.png"
 
 const ProjectCards = () => {
     return (
@@ -48,7 +49,7 @@ const ProjectCards = () => {
             <Project imgsrc={Codewars} title="Codewars" description="Codewars contains solutions of problems that I solved." link="https://github.com/elliottthomlison/Codewars" github="Check out the repository👈"/>
           </div>
           <div className="pt-32 px-10">
-            <Project imgsrc={Codewars} title="Codewars" description="Codewars contains solutions of problems that I solved." link="https://github.com/elliottthomlison/Yelp-Clone" github="Check out the repository👈"/>
+            <Project imgsrc={Yelp} title="Yelp" description="Yelp-clone is a duplication of Yelp created via the PERN stack." link="https://github.com/elliottthomlison/Yelp-Clone" github="Check out the repository👈"/>
           </div>
           <div className="pt-32 px-10">
             <Project imgsrc={Codewars} title="Codewars" description="Codewars contains solutions of problems that I solved." link="https://github.com/elliottthomlison/Instagram-Clone" github="Check out the repository👈"/>
