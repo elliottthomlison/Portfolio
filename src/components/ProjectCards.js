@@ -53,10 +53,10 @@ const ProjectCards = () => {
             <Project imgsrc={Yelp} title="Yelp Clone" description="Yelp clone is a duplication of Yelp created via the PERN stack." link="https://github.com/elliottthomlison/Yelp-Clone" github="Check out the repository👈"/>
           </div>
           <div className="pt-32 px-10">
-            <Project imgsrc={Instagram} title="Instagram Clone" description="Instagram Clone is a duplication of Instagram created with React and Firebase." link="https://github.com/elliottthomlison/Instagram-Clone" github="Check out the repository👈"/>
+            <Project imgsrc={Instagram} title="Instagram Clone" description="Instagram Clone is a duplication created with React and Firebase." link="https://github.com/elliottthomlison/Instagram-Clone" github="Check out the repository👈"/>
           </div>
           <div className="pt-32 px-10">
-            <Project imgsrc={Codewars} title="Codewars" description="Codewars contains solutions of problems that I solved." link="https://github.com/elliottthomlison/50-Projects" github="Check out the repository👈"/>
+            <Project imgsrc={Codewars} title="React Projects" description="An ongoing repository of React projects" link="https://github.com/elliottthomlison/React-Projects" github="Check out the repository👈"/>
           </div> 
         </div>
       </div>
