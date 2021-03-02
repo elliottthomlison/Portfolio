@@ -14,6 +14,7 @@ import MiCine from "../images/MiCine.gif"
 import Codewars from "../images/Codewars.png"
 import Yelp from "../images/Yelp.png"
 import Instagram from "../images/Instagram.png"
+import RecipeApp from "../images/RecipeApp.gif"
 
 const ProjectCards = () => {
     return (
@@ -56,7 +57,7 @@ const ProjectCards = () => {
             <Project imgsrc={Instagram} title="Instagram Clone" description="Instagram Clone is a duplication created with React and Firebase." link="https://github.com/elliottthomlison/Instagram-Clone" github="Check out the repository👈"/>
           </div>
           <div className="pt-32 px-10">
-            <Project imgsrc={Codewars} title="React Projects" description="An ongoing repository of React projects created for the sake of practice." link="https://github.com/elliottthomlison/React-Projects" github="Check out the repository👈"/>
+            <Project imgsrc={RecipeApp} title="React Projects" description="An ongoing repository of React projects created for the sake of practice." link="https://github.com/elliottthomlison/React-Projects" github="Check out the repository👈"/>
           </div> 
         </div>
       </div>
