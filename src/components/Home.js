@@ -35,7 +35,7 @@ useEffect(() => {
                 typewriter.typeString('Hi, I am Elliott. 🖖')
                   .pauseFor(500)
                   .deleteAll()
-                typewriter.typeString('I am a frontend developer. 👨‍💻')
+                typewriter.typeString('I am a frontend engineer. 👨‍💻')
                   .pauseFor(500)
                   .deleteAll()
                 typewriter.typeString('I was previously a teacher and corrections officer. 👮')
@@ -54,7 +54,7 @@ useEffect(() => {
             />
             </span>
             </h2>
-              <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href id="LHL" onClick={()=> window.open("http://www.lighthouselabs.ca")}>Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned and refined skills in <em>CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails</em>, and other software and skills both in the frontend and backend. I created multiple projects individually and collaboratively, as can be seen in the <a href="https://ethomlison.netlify.app/project">projects</a> tab. I am eager to find a workplace where I can continue to learn and develop my skills, first as a frontend developer and later as a full stack developer. 
+              <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href id="LHL" onClick={()=> window.open("http://www.lighthouselabs.ca")}>Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned and refined skills in <em>CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails</em>, and other software competencies both in the front and backend. I created multiple projects individually and collaboratively, as can be seen in the <a href="https://ethomlison.netlify.app/project">projects</a> tab. I am eager to find a workplace where I can continue to learn and develop my mastery, first as a frontend engineer and eventually as a full stack engineer. 
               </p>
               <br></br>
               <br></br>
