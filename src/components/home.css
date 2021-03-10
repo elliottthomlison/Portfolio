@@ -12,8 +12,9 @@
   width: 100%;
 }
 
-#LHL {
+.LHL {
   text-decoration: none;
   font-weight: 500;
   cursor: pointer;
+  color: black;
 }
