@@ -16,3 +16,16 @@
 .home-name {
   font-size: 150px;
 }
+
+.prose h4 {
+  color: white;
+}
+
+.prose a {
+  color: white;
+  text-decoration: none;
+}
+
+.prose {
+  color: white;
+}
