@@ -21,7 +21,7 @@ useEffect(() => {
   return (
     <main className="relative">
       <div className="lg:pt-20 container mx-auto relative ">
-        <h1 className="text-6xl text-green-900 font-bold cursive lg:leading-snug home-name hover:text-gray-900 text-center"></h1>
+        <h1 className="text-6xl text-gray-900 font-bold cursive lg:leading-snug home-name hover:text-gray-900 text-center"></h1>
         <section class="mt-10">
           <div className="text-lg flex flex-col justify-center">
             <h2 className="text-4xl text-gray-900 mb-4 hover:text-gray-900" id="test">
