@@ -51,7 +51,6 @@ export default function Post() {
                     <span className="relative justify items-start">
                     <h3 className="items-start text-lg px-3 py-4 bg-gray-900 text-blue-100 rounded">{post.title}</h3>
                     </span>
-                    
                   </span>
                 </Link>
               </article>
