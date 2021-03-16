@@ -64,7 +64,7 @@ export default function Home() {
           
             </section>
 
-            
+
       <div id="counter">
       {state.value} visitors have seen the magic of this page
       </div>
