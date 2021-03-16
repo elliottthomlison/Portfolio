@@ -21,7 +21,7 @@ const ProjectCards = () => {
         </h2>
       <div className="container-fluid d-flex justify-content-center ">
         <div className="row bg-gray-900 px-4 ">
-          <div className="col-md-3 pt-5">
+          <div className="col-md-3 pt-5 pl-20">
           <Project imgsrc={TiniestLittleApp} title="Tiniest Little App" description="TiniestLittleApp is a multipage app that creates miniaturized urls." link="https://tinyurl.com/9xjjh93d" github="Check out the repository👈"/>
         </div>
         <div className="col-md-3 pt-5">
