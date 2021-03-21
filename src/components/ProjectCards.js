@@ -20,7 +20,7 @@ const ProjectCards = () => {
         <h2 className="relative text-4xl text-gray-900 flex justify-center hover:text-gray-900 py-5">
         </h2>
       {/* <div className="container-fluid d-flex justify-content-center "> */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 bg-gray-900 px-4 ">
+        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6 bg-gray-900 px-4 ">
           <div>
           <Project imgsrc={TiniestLittleApp} title="Tiniest Little App" description="TiniestLittleApp is a multipage app that creates miniaturized urls." link="https://tinyurl.com/9xjjh93d" github="Check out the repository👈"/>
         </div>
