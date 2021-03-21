@@ -32,10 +32,8 @@ export default function Post() {
     <main className="absolute object-cover w-full h-full">
   
   <section className="container mx-auto">
-  <h1 className="relative text-6xl text-blue-900 flex justify-center cursive pt-20 hover:text-gray-900"></h1>
-        <h2 className="relative text-4xl text-gray-900 flex justify-center mb-12 pb-10 hover:text-gray-900">
-        
-        </h2>
+      <h1 className="relative text-6xl text-blue-900 flex justify-center cursive pt-20 hover:text-gray-900"></h1>
+        <h2 className="relative text-4xl text-gray-900 flex justify-center mb-12 pb-10 hover:text-gray-900"></h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* we will need to map  over all the info below */}
           {postData &&
