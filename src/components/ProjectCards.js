@@ -20,19 +20,19 @@ const ProjectCards = () => {
         <h2 className="relative text-4xl text-gray-900 flex justify-center hover:text-gray-900 py-5">
         </h2>
       <div className="container-fluid d-flex justify-content-center ">
-        <div className="row bg-gray-900 px-4 ">
-          <div className="col-md-3 pt-5 pl-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 bg-gray-900 px-4 ">
+          <div>
           <Project imgsrc={TiniestLittleApp} title="Tiniest Little App" description="TiniestLittleApp is a multipage app that creates miniaturized urls." link="https://tinyurl.com/9xjjh93d" github="Check out the repository👈"/>
         </div>
-        <div className="col-md-3 pt-5">
+        <div>
           <Project imgsrc={Tweeter} title="Tweeter" description="Tweeter is a simple, single-page Twitter clone." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
         </div>
-        <div className="col-md-3 pt-5">
+        <div>
           <Project imgsrc={TapiocaLoca} title="Tapioca Loca" description="Tapioca Loca is a minimalist single-page app." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
         </div>
-        <div className="col-md-3 pt-5">
+        {/* <div className="col-md-3 pt-5">
           <Project imgsrc={Interview} title="Interview Scheduler" description="Interview Scheduler is a React app that users can book and cancel interviews." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/> 
-        </div>
+        </div> */}
        </div>
       </div>
       <div className="container-fluid d-flex justify-content-center">
