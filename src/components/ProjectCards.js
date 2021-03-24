@@ -15,13 +15,13 @@ import Codewars from "../images/Codewars.png"
 
 const ProjectCards = () => {
     return (
-      <section>
+      <section className="container mx-auto">
         <h1 className="relative text-6xl text-blue-900 flex justify-center cursive pt-20 hover:text-gray-900"></h1>
         <h2 className="relative text-4xl text-gray-900 flex justify-center hover:text-gray-900 py-5">
         </h2>
       {/* <div className="container-fluid d-flex justify-content-center "> */}
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-gray-900">
-          <div>
+          <div className="pl-15 bg-red-500">
           <Project imgsrc={TiniestLittleApp} title="Tiniest Little App" description="TiniestLittleApp is a multipage app that creates miniaturized urls." link="https://tinyurl.com/9xjjh93d" github="Check out the repository👈"/>
         </div>
         <div>
