@@ -19,6 +19,7 @@
   height: 20px;
   position: absolute;
   background: white;
+
   display: block;
   content: "";
   border-radius: 9999px;
@@ -46,11 +47,24 @@
   z-index: 2;
 }
 
-#hamburger {
+#resumeButton:hover {
+  color: black;
+}
+
+#menu-toggle:checked + #menu {
+  display: block;
+  cursor: pointer;
+}
+
+#menu-toggle:hover {
+  cursor: pointer;
+}
+
+#hamburger { 
+  color: white !important;
   margin-right: 25px;
 }
 
 #hamburger:hover {
-  cursor: pointer;
-  background-color: gray;
+  background-color: rgb(104, 104, 104);
 }
