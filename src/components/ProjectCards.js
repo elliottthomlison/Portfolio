@@ -19,9 +19,6 @@ const ProjectCards = () => {
         <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xl:gap-12 lg:gap-6 md:gap-6">
           
         
-        {/* <h1 className="relative text-6xl text-blue-900 flex justify-center cursive pt-20 hover:text-gray-900"></h1>
-        <h2 className="relative text-4xl text-gray-900 flex justify-center mb-12 pb-10 hover:text-gray-900"></h2> */}
-
           <div className="p-6 rounded">
             <Project imgsrc={TiniestLittleApp} title="Tiniest Little App" description="TiniestLittleApp is a multipage app that creates miniaturized urls." link="https://tinyurl.com/9xjjh93d" github="Check out the repository👈"/>
           </div>
