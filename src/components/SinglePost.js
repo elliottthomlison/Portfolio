@@ -43,10 +43,10 @@ export default function SinglePost() {
         <header>
           <div>
             <div>
-              <h1 className="bg-red-500 cursive text-3xl lg:text-6xl mb-4">
+              <h1>
                 {singlePost.title}
               </h1>
-              <div className="flex justify-center text-gray-800">
+              <div>
                 <img
                   src={urlFor(singlePost.authorImage).url()}
                   alt={singlePost.name}
