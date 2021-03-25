@@ -21,11 +21,11 @@ useEffect(() => {
   return (
     <main className="relative">
       <div className="lg:pt-20 container mx-auto relative ">
-        <h1 className ="text-6xl text-green-900 font-bold cursive lg:leading-snug home-name hover:text-gray-900 text-center"></h1>
+        <h1 className="text-6xl text-green-900 font-bold cursive lg:leading-snug home-name hover:text-gray-900 text-center"></h1>
         <section class="mt-10">
-          <div className="text-lg flex flex-col justify-center op">
-            <h1 className="text-4xl text-gray-900 mb-4 hover:text-gray-900" id="test">
-            <h2 id="test">
+          <div className="text-lg flex flex-col justify-center">
+            <h2 className="text-4xl text-gray-900 mb-4 hover:text-gray-900" id="test">
+            
               <span 
               style={{
                 display: 'inline-block',
@@ -54,7 +54,6 @@ useEffect(() => {
             />
             </span>
             </h2>
-            </h1>
               <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href id="LHL" onClick={()=> window.open("http://www.lighthouselabs.ca")}>Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned and refined skills in <em>CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails</em>, and other software and skills both in the frontend and backend. I created multiple projects individually and collaboratively, as can be seen in the projects tab. I am eager to find a workplace where I can continue to learn and develop my skills, first as a frontend developer and later as a full stack developer. 
               </p>
               <br></br>
