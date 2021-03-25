@@ -52,7 +52,7 @@ export default function SinglePost() {
                   alt={singlePost.name}
                   className="w-10 h-10 rounded-full"
                 />
-                <p className="cursive flex items-center pl-2 text-2xl">
+                <p>
                   {singlePost.name}
                 </p>
               </div>
@@ -65,7 +65,7 @@ export default function SinglePost() {
             style={{ height: "400px" }}
           />
         </header>
-        <div className="px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full">
+        <div>
           <BlockContent
             blocks={singlePost.body}
             projectId="r99w5jgb"
