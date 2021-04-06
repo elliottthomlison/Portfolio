@@ -15,74 +15,39 @@ import Codewars from "../images/Codewars.png"
 
 const ProjectCards = () => {
     return (
-      <main>
-  
-  <section>
-      <h1></h1>
-        <h2></h2>
-        <div class="grid grid-flow-col grid-cols-3 grid-rows-3 gap-4">            <div className="bg-gray-900">
-          <Project imgsrc={TiniestLittleApp} title="Tiniest Little App" description="TiniestLittleApp is a multipage app that creates miniaturized urls." link="https://tinyurl.com/9xjjh93d" github="Check out the repository👈"/>
+<div class="md:flex content-center flex-wrap -mx-2 p-3 bg-grey rounded shadow-lg">
+      <div class="md:flex md:w-1/2 lg:w-1/3 px-2 py-2">
+        <div class="md:flex-1 p-4 rounded shadow-lg bg-white border-b border-r border-grey-dark">
+          <p>Edison bulb poke etsy brunch, freegan lumbersexual tacos. Activated charcoal mustache small batch thundercats vexillologist poke meh snackwave. Biodiesel photo booth cardigan heirloom normcore taiyaki palo santo yuccie unicorn swag street art kitsch seitan raclette.</p>
         </div>
-        <div className="bg-gray-900">
-          <Project imgsrc={Tweeter} title="Tweeter" description="Tweeter is a simple, single-page Twitter clone." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
-        </div>
-        <div className="py-10 px-10 bg-gray-900">
-          <Project imgsrc={TapiocaLoca} title="Tapioca Loca" description="Tapioca Loca is a minimalist single-page app." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
-        </div>
-        {/* <div>
-          <Project imgsrc={Interview} title="Interview Scheduler" description="Interview Scheduler is a React app that users can book and cancel interviews." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/> 
-        </div> */}
-       </div>
-      <div className="container-fluid d-flex justify-content-center">
-       <div className="row bg-gray-900 px-4">
-          <div className="col-md-3 py-5">
-          <Project imgsrc={Jungle} title="Jungle" description="Jungle is a mini e-commerce application built with Rails and Ruby on Rails." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
-        </div>
-        <div className="col-md-3 py-5">
-          <Project imgsrc={MiCasa} title="MiCasa" description="MiCasa is a mobile app that helps individuals find a home to rent." link="https://tinyurl.com/tzrk9re6" github="Check out the repository👈"/>
-        </div>
-        <div className="col-md-3 py-5">
-          <Project imgsrc={MiTienda} title="MiTienda" description="MiTienda is an e-commerce app that allows users to shop." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
-        </div>
-        <div className="col-md-3 py-5">
-          <Project imgsrc={MiCine} title="MiCine" description="MiCine is a movie-searching app where users can read and see ratings." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/> 
-        </div>
-       </div>
       </div>
-      <div className="container-fluid d-flex justify-content-center">
-       <div className="row bg-gray-900 px-4">
-          <div className="col-md-3">
-          <Project imgsrc={Codewars} title="Codewars" description="Codewars contains solutions of problems that I solved." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
+      <div class="md:flex md:w-1/2 lg:w-1/3 px-2 py-2">
+        <div class="md:flex-1 p-4 rounded shadow-lg bg-white border-b border-r border-grey-dark">
+          <p>Chambray gochujang activated charcoal seitan etsy. Williamsburg tattooed intelligentsia shoreditch keytar. Paleo gochujang copper mug.</p>
         </div>
-        {/* <div className="col-md-3">
-          <Project imgsrc={ReactProjects} title="React Projects" description="Tweeter is a simple, single-page Twitter clone. It is the second project that is built during the Lighthouse Labs Web Development Bootcamp. Tweeter takes in the input of the user and prints it out, resembling Twitter in the process. Tweeter was built in order to practice HTML, CSS, JS, jQuery and Ajax front-end skills, along with NodeJS, Express and MongoDB back-end skills. Difficulties arose from inexperience and the use of new tools, the use of a tool to dynamically print the time of each tweet, for example." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
-        </div>
-        <div className="col-md-3">
-          <Project imgsrc={DataValidationForms} title="Data Validation Forms" description="Tapioca Loca is a minimalist single-page app that allows restaurant clients to order from a restaurant's website. Afterwards, the client will receive a confirmation text to inform them of when it will be ready. It is the third project that was built during the Lighthouse Labs Web Development Bootcamp. Tapioca Loca was built using HTML, CSS, JS, JQuery, AJAX, and PostgreSQL. Difficulites and challenges arose throughout the project, yet the issues were resolved. The app proved an useful project to teach all three participants further how to build and troubleshoot." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
-        </div>
-        <div className="col-md-3">
-          <Project imgsrc={JavascriptProjects} title="JavaScript Projects" description="Interview Scheduler is a React application that allows users to book and cancel interviews. The app allows the user to book, cancel, edit, and delete appointments. The user can select interview time slots and select the interviewer of their choosing. It is the fourth project that is built during the Lighthouse Labs Web Development Bootcamp. It was built through the use of React, Storybook, and the use of a scheduler-api. Difficulties and challenges arose because of my initial unfamilarity of React." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/> 
-        </div>
-       </div>
       </div>
-      <div className="container-fluid d-flex justify-content-center">
-       <div className="row bg-gray-900 px-4">
-          <div className="col-md-3">
-          <Project imgsrc={YelpClone} title="Yelp Clone" description="This repository contains my progress on Codewars and can be seen here: https://www.codewars.com/users/elliottthomlison. The challenges and their solutions are placed into Anki, the flashcard app, after solving the problem in order to review and cement the approach taken to solve the problems." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
+      <div class="md:flex md:w-1/2 lg:w-1/3 px-2 py-2">
+        <div class="md:flex-1 p-4 rounded shadow-lg bg-white border-b border-r border-grey-dark">
+          <p>90s vape pork belly gastropub, meh cold-pressed microdosing fam yuccie cronut brunch.</p>
         </div>
-        <div className="col-md-3">
-          <Project imgsrc={InstagramClone} title="Instagram Clone" description="Tweeter is a simple, single-page Twitter clone. It is the second project that is built during the Lighthouse Labs Web Development Bootcamp. Tweeter takes in the input of the user and prints it out, resembling Twitter in the process. Tweeter was built in order to practice HTML, CSS, JS, jQuery and Ajax front-end skills, along with NodeJS, Express and MongoDB back-end skills. Difficulties arose from inexperience and the use of new tools, the use of a tool to dynamically print the time of each tweet, for example." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
-        </div>
-        <div className="col-md-3">
-          <Project imgsrc={Friends} title="Friends" description="Tapioca Loca is a minimalist single-page app that allows restaurant clients to order from a restaurant's website. Afterwards, the client will receive a confirmation text to inform them of when it will be ready. It is the third project that was built during the Lighthouse Labs Web Development Bootcamp. Tapioca Loca was built using HTML, CSS, JS, JQuery, AJAX, and PostgreSQL. Difficulites and challenges arose throughout the project, yet the issues were resolved. The app proved an useful project to teach all three participants further how to build and troubleshoot." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
-        </div>
-        {/* <div className="col-md-3">
-          <Project imgsrc={JavascriptProjects} title="JavaScript Projects" description="Interview Scheduler is a React application that allows users to book and cancel interviews. The app allows the user to book, cancel, edit, and delete appointments. The user can select interview time slots and select the interviewer of their choosing. It is the fourth project that is built during the Lighthouse Labs Web Development Bootcamp. It was built through the use of React, Storybook, and the use of a scheduler-api. Difficulties and challenges arose because of my initial unfamilarity of React." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/> 
-        </div> */}
-       </div>
       </div>
-      </section> 
-      </main>
+      <div class="md:flex md:w-1/2 lg:w-1/3 px-2 py-2">
+        <div class="md:flex-1 p-4 rounded shadow-lg bg-white border-b border-r border-grey-dark">
+          <p>Squid palo santo shaman, crucifix occupy twee thundercats.</p>
+        </div>
+      </div>
+      <div class="md:flex md:w-1/2 lg:w-1/3 px-2 py-2">
+        <div class="md:flex-1 p-4 rounded shadow-lg bg-white border-b border-r border-grey-dark">
+          <p>Pour-over ennui twee man braid kogi. Forage man braid offal pickled tumblr kickstarter. Cray vaporware locavore vexillologist, kitsch la croix man bun.</p>
+        </div>
+      </div>
+      <div class="md:flex md:w-1/2 lg:w-1/3 px-2 py-2">
+        <div class="md:flex-1 p-4 rounded shadow-lg bg-white border-b border-r border-grey-dark">
+          <p class="mb-4">Vexillologist glossier venmo prism mixtape shaman. Before they sold out cronut raw denim prism lomo mixtape echo park kitsch hella vape aesthetic hot chicken freegan. Normcore 8-bit chartreuse, austin shoreditch single-origin coffee tofu pinterest iPhone franzen ugh mixtape vape brooklyn.</p>
+          <p>Cardigan copper mug narwhal, fixie cronut four dollar toast next level viral pork belly shabby chic small batch DIY brooklyn yuccie tumeric. Irony poutine health goth coloring book.</p>
+        </div>
+      </div>
+    </div>
     )
   }
 
