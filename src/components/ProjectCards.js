@@ -15,24 +15,23 @@ import Codewars from "../images/Codewars.png"
 
 const ProjectCards = () => {
     return (
-      <main className="absolute object-cover w-full h-full">
+      <main>
   
-  <section className="container mx-auto">
-      <h1 className="relative text-6xl text-blue-900 flex justify-center cursive pt-20 hover:text-gray-900"></h1>
-        <h2 className="relative text-4xl text-gray-900 flex justify-center mb-12 pb-10 hover:text-gray-900"></h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-          <div className="py-10 px-10">
+  <section>
+      <h1></h1>
+        <h2></h2>
+        <div class="grid grid-flow-col grid-cols-3 grid-rows-3 gap-4">            <div className="bg-gray-900">
           <Project imgsrc={TiniestLittleApp} title="Tiniest Little App" description="TiniestLittleApp is a multipage app that creates miniaturized urls." link="https://tinyurl.com/9xjjh93d" github="Check out the repository👈"/>
         </div>
-        <div>
+        <div className="bg-gray-900">
           <Project imgsrc={Tweeter} title="Tweeter" description="Tweeter is a simple, single-page Twitter clone." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
         </div>
-        <div>
+        <div className="py-10 px-10 bg-gray-900">
           <Project imgsrc={TapiocaLoca} title="Tapioca Loca" description="Tapioca Loca is a minimalist single-page app." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/>
         </div>
-        <div>
+        {/* <div>
           <Project imgsrc={Interview} title="Interview Scheduler" description="Interview Scheduler is a React app that users can book and cancel interviews." link="https://tinyurl.com/dadzmpec" github="Check out the repository👈"/> 
-        </div>
+        </div> */}
        </div>
       <div className="container-fluid d-flex justify-content-center">
        <div className="row bg-gray-900 px-4">
