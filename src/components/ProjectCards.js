@@ -16,7 +16,7 @@ import Codewars from "../images/Codewars.png"
 const ProjectCards = () => {
     return (
       <div className="flex justify-center justify-content pt-30">
-        <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xl:gap-16 lg:gap-8 md:gap-4">
+        <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xl:gap-16 lg:gap-8 md:gap-8">
           
           <div className="pt-24 rounded">
             <Project imgsrc={TiniestLittleApp} title="Tiniest Little App" description="TiniestLittleApp is a multipage app that creates miniaturized urls." link="https://tinyurl.com/9xjjh93d" github="Check out the repository👈"/>
