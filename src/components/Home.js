@@ -20,7 +20,6 @@ export default function Home() {
 
   return (
     <main className="relative">
-      {/* <img src={image} alt="background" className="absolute w-full" /> */}
       <div className="lg:pt-20 container mx-auto relative ">
         <h1 className ="text-6xl text-green-900 font-bold cursive lg:leading-snug home-name hover:text-gray-900 text-center"></h1>
         <section class="mt-10">
@@ -30,9 +29,8 @@ export default function Home() {
               <span 
               style={{
                 display: 'inline-block',
-              }}
-              
-              ><Typewriter
+              }}>
+                <Typewriter
               onInit={(typewriter) => {
                 typewriter.typeString('Hi, I am Elliott. 👋')
                   .pauseFor(500)
@@ -61,10 +59,7 @@ export default function Home() {
             <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href id="LHL" onClick={()=> window.open("www.lighthouselabs.ca")}>Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned and refined skills in CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails, and other software and skills both in the frontend and backend. I created multiple projects individually and collaboratively, as can be seen in the projects tab. I am eager to find a workplace where I can continue to learn and develop my skills, first as a frontend developer and later as a full stack developer. 
             </p>
           </div>
-          
-            </section>
-
-
+        </section>
       <div id="counter">
       {state.value} visitors have seen the magic of this page
       </div>
