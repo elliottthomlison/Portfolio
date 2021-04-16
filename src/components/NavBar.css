@@ -3,7 +3,6 @@
   border: none;
   margin: 8px;
   padding: 14px 24px;
-  /* background: #1976d2; */
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -47,9 +46,7 @@
   z-index: 2;
 }
 
-.sticky {
-  position: sticky;
-  top: 0;
-  justify-content: flex-start;
+#hamburger:hover {
+  cursor: pointer;
+  background-color: gray;
 }
-
