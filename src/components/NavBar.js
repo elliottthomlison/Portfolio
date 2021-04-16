@@ -17,26 +17,28 @@ export default function NavBar() {
           </Ripple>
         </NavLink> 
         </div>
-        <div className="pr-10">
+        
           <label for="menu-toggle" class="pointer-cursor md:hidden block">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 9.5H3M21 4.5H3M21 14.5H3M21 19.5H3"/></svg>
           </label>
-          <input class="hidden" type="checkbox" id="menu-toggle" />
-        </div>
+          <input class="hidden" type="checkbox" id="menu-toggle"/>
+        
 
-    <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
-      <nav>
-      <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
-            <Ripple >Projects</Ripple>
+        <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+          <nav>
+            <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
+              <Ripple>Projects</Ripple>
             </NavLink>        
             <NavLink to="/post" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest"> 
-              <Ripple >Blog Posts</Ripple>
+              <Ripple>Blog Posts</Ripple>
             </NavLink>
+
             <a id="resumeButton" className="no-underline button text-white inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
-              <Ripple >
-            <td onClick={()=> window.open("https://drive.google.com/file/d/1ULhMdc-i-7YZMNFTAbuVqKMmD0xtnKcu/view?usp=sharing")}>Resume</td>
+              <Ripple>
+                <td onClick={()=> window.open("https://drive.google.com/file/d/1ULhMdc-i-7YZMNFTAbuVqKMmD0xtnKcu/view?usp=sharing")}>Resume</td>
               </Ripple>
             </a>
+            
             <a className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest" href="mailto: elliott.thomlison@gmail.com">
               <Ripple>Contact Me</Ripple>
             </a>     

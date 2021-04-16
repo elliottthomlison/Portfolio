@@ -63,9 +63,11 @@
 
 #menu-toggle:checked + #menu {
   display: block;
+  cursor: pointer;
+
 }
 
-#hamburger:hover {
+#menu-toggle:hover {
   cursor: pointer;
 }
 
