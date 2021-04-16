@@ -20,7 +20,6 @@
   height: 20px;
   position: absolute;
   background: white;
-  
   display: block;
   content: "";
   border-radius: 9999px;
@@ -54,24 +53,3 @@
   justify-content: flex-start;
 }
 
-#resumeButton:hover {
-  color: black;
-}
-
-
-/* responsive portion */
-
-#menu-toggle:checked + #menu {
-  display: block;
-  cursor: pointer;
-
-}
-
-#menu-toggle:hover {
-  cursor: pointer;
-}
-
-#hamburger { 
-  background-color: white !important;
-  color: white !important;
-}
