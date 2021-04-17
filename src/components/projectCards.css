@@ -30,13 +30,9 @@
 
 .card-img-top{
   transform: scale(1);
-  transition: transform 0.5s ease;
-  /* border-top: black solid 5px;
-  border-left: black solid 5px;
-  border-right: black solid 1px; */
-
+  transition: transform 0.5s ease-in
 }
 
 .card-img-top:hover {
-  transform: scale(1.8)
+  transform: scale(1.2)
 }
