@@ -5,18 +5,18 @@ import './home.css'
 
 export default function Home() {
 
-  const [state, setState] = useState({value:''}) 
+const [state, setState] = useState({value:''}) 
 
-  useEffect(() => {
-    axios.get('https://api.countapi.xyz/update/ethomlison.netlify.app/ethomlison.netlify.app/?amount=1')
-    .then(function (response) {
-      setState(response.data);
-      console.log(state)
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-  }, [])
+useEffect(() => {
+  axios.get('https://api.countapi.xyz/update/ethomlison.netlify.app/ethomlison.netlify.app/?amount=1')
+  .then(function (response) {
+    setState(response.data);
+    console.log(state)
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+}, [])
 
   return (
     <main className="relative">
@@ -66,9 +66,7 @@ export default function Home() {
                 {state.value} visitors have seen the magic of this page
               </div>
           </div>
-          
         </section>
-     
       </div>
     </main>
   );
