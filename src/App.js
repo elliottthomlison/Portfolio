@@ -1,16 +1,17 @@
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
+// connecting the definitions of Home, About, etc. from their pages in components to use them in function below
 import Home from "./components/Home";
 import About from "./components/About";
 import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
 import Project from "./components/Project";
-
-
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
   <BrowserRouter>
+  <NavBar>
   {/* Switch will switch to allow the components to display for the user */}
     <Switch>
       {/* Need 5 routes because there will be 5 different pages | excluding navbar because it will always be visible*/}
@@ -21,6 +22,7 @@ function App() {
       <Route component={Post} path='/post'/>
       <Route component={Project} path='/project'/>
     </Switch>
+  </NavBar>
   </BrowserRouter>
   )
 }
