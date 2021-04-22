@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <BrowserRouter>
+  {/* Switch will switch to allow the components to display for the user */}
+    <Switch>
+      {/* Need 5 routes because there will be 5 different pages | excluding navbar because it will always be visible*/}
+      {/* path=/ === homepage  */}
+      <Route component={Home} path='/' exact/>
+      <Route component={About} path='/about'/>
+      <Route component={SinglePost} path='/post/:slug'/>
+      <Route component={Post} path='/post'/>
+      <Route component={Project} path='/project'/>
+    </Switch>
+  </BrowserRouter>
+  )
 }
 
 export default App;
