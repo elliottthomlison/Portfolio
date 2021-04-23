@@ -27,6 +27,7 @@ export default function NavBar() {
             About Me!
           </NavLink>
         </nav>
+        {/* use a npm download (react-social-icons) to display these images */}
         <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon url='https://www.linkedin.com/in/elliott-thomlison/' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/>
           <SocialIcon url='https://github.com/elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/> 
@@ -34,6 +35,5 @@ export default function NavBar() {
         </div>
       </div>
     </header>
-  
   )
 }
