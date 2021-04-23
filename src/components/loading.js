@@ -3,7 +3,6 @@ import FadeIn from "react-fade-in";
 import Lottie from "react-lottie";
 import "bootstrap/dist/css/bootstrap.css";
 import * as legoData from "./legoloading.json";
-// import * as doneData from "./doneloading.json";
 
 const defaultOptions = {
   loop: true,
@@ -13,14 +12,6 @@ const defaultOptions = {
     preserveAspectRatio: "xMidYMid slice"
   }
 };
-// const defaultOptions2 = {
-//   loop: false,
-//   autoplay: true,
-//   animationData: doneData.default,
-//   rendererSettings: {
-//     preserveAspectRatio: "xMidYMid slice"
-//   }
-// };
 
 export default class Loading extends React.Component {
   constructor(props) {
