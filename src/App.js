@@ -9,7 +9,7 @@ import ProjectCards from "./components/ProjectCards.js";
 
 // calling the navbar below here and placing inside the function
 import NavBar from "./components/NavBar";
-import Loading from './components/loading.js'
+import Loading from './components/Loading.js'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
