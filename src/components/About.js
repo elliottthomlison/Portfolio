@@ -1,34 +1,10 @@
-import React, { useEffect, useState } from "react";
-import sanityClient from "../client.js";
-import imageUrlBuilder from "@sanity/image-url";
-import bg1 from "../bg11.jpg";
+import React from 'react';
+import image from '../bg11.jpg';
 
-const builder = imageUrlBuilder(sanityClient);
-function urlFor(source) {
-  return builder.image(source);
-}
-
-export default function About() {
-  const [author, setAuthor] = useState(null);
-
-  useEffect(() => {
-    sanityClient
-      .fetch(
-        `*[_type == "author"]{
-          name,
-          "bio": bio[0].children[0].text,
-          "authorImage": image.asset->url
-      }`
-      )
-      .then((data) => setAuthor(data[0]))
-      .catch(console.error);
-  }, []);
-
-  if (!author) return <div>Loading...</div>;
-
+export default function Home() {
   return (
     <main className="relative">
-      <img src={bg1} alt="background" className="absolute w-full" />
+      <img src={image} alt="background" className="absolute w-full" />
       <div className="lg:pt-20 container mx-auto relative">
         <section className="bg-white-600 rounded-lg shadow-1xl lg:flex p-10">
           
@@ -50,4 +26,3 @@ export default function About() {
     </main>
   );
 }
-
