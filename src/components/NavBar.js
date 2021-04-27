@@ -5,25 +5,25 @@ import { SocialIcon } from 'react-social-icons'
 // these are the links that will be available in the navbar
 export default function NavBar() {
   return (
-    <header className="bg-red-600">
+    <header className="bg-blue-600">
       {/* mx-auto / flex = puts things in the div / justify-between = spacing between /  */}
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           {/* py = padding on the y axis */}
-          <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest">
-            Test
+          <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-3 mr-4 text-blue-100 hover:text-blue-800 text-4xl font-bold cursive tracking-widest">
+            Elliott's Corner
           </NavLink>
 
-          <NavLink to="/post" className="inflex-flex items-center py-3 px-3 my-6 text-red-100 hover:text-green-800" activeClassName="text-red-100 bg-red-700">
+          <NavLink to="/post" className="inflex-flex items-center py-3 px-3 my-6 text-blue-100 hover:text-yellow-800" activeClassName="text-blue-100 bg-blue-700">
             
             Blog Posts
           </NavLink>
 
-          <NavLink to="/project" className="inflex-flex items-center py-3 px-3 my-6 text-red-100 hover:text-green-800" activeClassName="text-red-100 bg-red-700">
+          <NavLink to="/project" className="inflex-flex items-center py-3 px-3 my-6 text-blue-100 hover:text-green-800" activeClassName="text-blue-100 bg-blue-700">
             Projects
           </NavLink>
 
-          <NavLink to="/about" className="inflex-flex items-center py-3 px-3 my-6 text-red-100 hover:text-green-800" activeClassName="text-red-100 bg-red-700">
+          <NavLink to="/about" className="inflex-flex items-center py-3 px-3 my-6 text-blue-100 hover:text-green-800" activeClassName="text-blue-100 bg-blue-700">
             About Me!
           </NavLink>
         </nav>
