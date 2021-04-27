@@ -33,10 +33,11 @@ export default function Post() {
     <main className="absolute object-cover w-full h-full">
       
   <img src={bg2} alt="background" className="absolute w-full h-full"/>
+  
   <section className="container mx-auto">
-  <h1 className="relative text-6xl text-blue-100 flex justify-center cursive pt-20">My Projects</h1>
-        <h2 className="relative text-4xl text-gray-100 flex justify-center mb-12 pb-10">
-          Welcome to my projects page!
+  <h1 className="relative text-6xl text-blue-100 flex justify-center cursive pt-20 hover:text-gray-900">Welcome to my Blog Posts Page!</h1>
+        <h2 className="relative text-4xl text-gray-100 flex justify-center mb-12 pb-10 hover:text-gray-900">
+          Here I share posts that I've made on Medium.com 
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* we will need to map  over all the info below */}
@@ -56,7 +57,7 @@ export default function Post() {
               alt={post.mainImage.alt}
               className="w-full h-full rounded-r object-cover absolute"
             />
-            <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
+            <span className="block relative h-full w-full justify-end items-end pr-4 pb-4">
               <h3 className="text-gray-800 text-lg font-blog px-3 py-4 bg-blue-700 text-blue-100 bg-opacity-75 rounded">
                 {post.title}
               </h3>

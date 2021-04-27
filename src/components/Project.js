@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
-import bg2 from "../bg9.jpg";
+import bg2 from "../bg5.jpg";
 
 
 export default function Project() {
@@ -24,13 +24,14 @@ export default function Project() {
   }, []);
 
   return (
-    <main className="bg-green-100 min-h-screen">
-          <img src={bg2} alt="background" className="absolute w-full h-full"/>
+    <main className="absolute object-cover w-full h-full">
+
+    <img src={bg2} alt="background" className="absolute w-full h-full"/>
 
       <section className="container mx-auto">
-        <h1 className="text-6xl text-white-600 flex justify-center cursive pt-20">My Projects</h1>
-        <h2 className="text-3xl text-white-600 flex justify-center mb-12">
-          Welcome to my projects page!
+        <h1 className="relative text-6xl text-blue-100 flex justify-center cursive pt-20 hover:text-gray-900">Welcome to my Projects Page!</h1>
+        <h2 className="relative text-4xl text-gray-100 flex justify-center mb-12 pb-10 hover:text-gray-900">
+          Here I share my projects from big to small
         </h2>
         <section className="grid grid-cols-2 gap-8">
           {projectData &&

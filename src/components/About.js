@@ -37,9 +37,9 @@ export default function About() {
             alt="Kapehe"
           />
           <div className="text-lg flex flex-col justify-center">
-            <h1 className="cursive text-6xl text-green-300 mb-4">
-              Hey there. I'm{" "}
-              <span className="text-green-100">{author.name}</span>
+            <h1 className="cursive text-6xl text-gray-300 mb-4 hover:text-gray-900">
+              Hey there. Once again I'm{" "} 
+              <span className="text-gray-900">{author.name}</span> and this is me.
             </h1>
             <p className="text-green-100">{author.bio}</p>
           </div>
@@ -48,3 +48,4 @@ export default function About() {
     </main>
   );
 }
+
