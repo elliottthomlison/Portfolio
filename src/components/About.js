@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../bg11.jpg';
+import image from '../bg.jpg';
 
 export default function Home() {
   return (
