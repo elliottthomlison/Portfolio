@@ -70,8 +70,8 @@ export default function Project() {
                     className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl"
                   >
                     View The Project{" "}
-                    <span role="img" aria-label="right pointer">
-                      👉
+                    <span role="img" aria-label="left pointer">
+                    👈
                     </span>
                   </a>
                 </div>
