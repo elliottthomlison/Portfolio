@@ -10,9 +10,9 @@ export default function Home() {
           <div class="container mx-auto p-5 bg-blue-600	bg-opacity-50">
           <div className="text-lg flex flex-col justify-center op">
             <h1 className="cursive text-6xl text-gray-300 mb-4 hover:text-gray-900">
-              Hey there. Once again, I'm <span className="cursive text-6xl text-gray-100">Elliott</span>. Please recognize the two T's.
+              Hey there. Once again, I'm <span className="cursive text-6xl text-gray-100">Elliott</span>.
             </h1>
-            <p className="cursive text-3xl text-gray-100 hover:text-gray-900">I am a Canadian man transitioning my career from education and law enforcement to front-end development. A transition that I hope will evolve in a workplace that I can expand my knowledge of CSS, HTML, JavaScript, React, and other languages and frameworks.
+            <p className="cursive text-3xl text-gray-100 hover:text-gray-900">I am a Canadian man transitioning my career from education and law enforcement to front-end development. A transition that I hope will evolve in a workplace that I can expand my knowledge of CSS, HTML, JavaScript, React, along with other languages and frameworks.
             </p>
             
             <br></br>
