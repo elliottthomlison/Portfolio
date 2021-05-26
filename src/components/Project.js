@@ -33,10 +33,10 @@ export default function Project() {
         <h2 className="relative text-4xl text-gray-100 flex justify-center mb-12 pb-10 hover:text-gray-900">
           Here I share my projects from big to small
         </h2>
-        <section className="grid grid-cols-2 gap-8">
+        <section className="grid grid-cols-3 gap-5">
           {projectData &&
             projectData.map((project, index) => (
-              <article className="relative rounded-lg shadow-xl bg-white p-16">
+              <article className="bg-gray-400 relative rounded-lg shadow-xl bg-white p-16">
                 <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                   <a
                     href={project.link}
@@ -47,7 +47,7 @@ export default function Project() {
                     {project.title}
                   </a>
                 </h3>
-                <div className="text-gray-500 text-xs space-x-4">
+                <div className="text-gray-800 text-xs space-x-4">
                   <span>
                     <strong className="font-bold">Finished on</strong>:{" "}
                     {new Date(project.date).toLocaleDateString()}
