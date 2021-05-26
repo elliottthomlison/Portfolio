@@ -18,7 +18,7 @@ export default function Home() {
             <br></br>
             
             <p className="cursive text-3xl text-gray-100 hover:text-gray-900">
-            I've lived in Quebec (Montréal and Trois-Rivières), South Korea (Daejeon), and now I've returned home to Vancouver. I enjoy throwing frisbees, attempting muscle-ups, reading, attempting my hand at art, and the mental challenge of coding. I will become increasingly competent as a developer and look forward to finding a team to expedite that process.
+            I've lived in Quebec (Montréal and Trois-Rivières), South Korea (Daejeon), and now I've returned home to Vancouver. I enjoy throwing frisbees, attempting muscle-ups, reading, attempting my hand at art, and the mental challenge of coding. This year I will become increasingly competent as a developer and look forward to finding a team to expedite that process.
             </p>
           </div>
           </div>
