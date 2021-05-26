@@ -26,7 +26,7 @@ export default function Project() {
   return (
     <main className="absolute object-cover w-full h-full">
 
-  <img src={bg2} alt="background" className="absolute object-cover w-full h-120 bg-blue-500"/>
+  <img src={bg2} alt="background" className="absolute bg-repeat"/>
 
       <section className="container mx-auto">
         <h1 className="relative text-6xl text-blue-100 flex justify-center cursive pt-20 hover:text-gray-900">Welcome to my Projects Page!</h1>
