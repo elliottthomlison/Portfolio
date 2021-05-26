@@ -21,6 +21,13 @@ export default function Home() {
             I've lived in Quebec (Montréal and Trois-Rivières), South Korea (Daejeon), and now I've returned home to Vancouver. I enjoy throwing frisbees, attempting muscle-ups, reading, attempting my hand at art, and the mental challenge of coding. This year I will become increasingly competent as a developer and look forward to finding a team to expedite that process.
             </p>
           </div>
+
+          <br></br>
+            <p> 
+              <button className="cursive text-3xl text-gray-100 hover:text-gray-900">
+              <a className="button" href="../assets/Resume/ResumeOfficial.pdf" download = "ResumeOfficial.pdf"> Check out my resume here! :) </a>
+              </button>
+            </p>
           </div>
         </section>
       </div>
