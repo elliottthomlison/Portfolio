@@ -12,7 +12,7 @@ export default function Home() {
             <h1 className="cursive text-6xl text-gray-300 mb-4 hover:text-gray-900">
               Hey there. Once again, I'm <span className="cursive text-6xl text-gray-100">Elliott</span>. Please recognize the two T's.
             </h1>
-            <p className="cursive text-3xl text-gray-100 hover:text-gray-900">I am a Canadian man trying to evolve from Pinky to The Brain. A transformation that I hope will take place as I continually make progress and expand my knowledge of CSS, HTML, JavaScript, React, along with the other languages and frameworks that I know.
+            <p className="cursive text-3xl text-gray-100 hover:text-gray-900">I am a Canadian man transitioning my career from education and law enforcement to front-end development. A transition that I hope will evolve in a workplace that I can expand my knowledge of CSS, HTML, JavaScript, React, and other languages and frameworks.
             </p>
             
             <br></br>
