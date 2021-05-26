@@ -1,5 +1,8 @@
+import FileSaver from 'file-saver';
 import React from 'react';
 import image from '../bg.jpg';
+import { saveAs } from 'file-saver';
+import ResumeDownload from 'ResumeDownload.js'
 
 export default function Home() {
   return (
@@ -25,7 +28,7 @@ export default function Home() {
           <br></br>
             <p> 
               <button className="cursive text-3xl text-gray-100 hover:text-gray-900">
-              <a className="button" href="../assets/Resume/ResumeOfficial.pdf" download = "ResumeOfficial.pdf"> Check out my resume here! :) </a>
+              <a className="button" href="../public/src/Thomlison, Elliott - Resume.pdf" download = "Thomlison, Elliott - Resume.pdf"> Check out my resume here! :) </a>
               </button>
             </p>
           </div>
