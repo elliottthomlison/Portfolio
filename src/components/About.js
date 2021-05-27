@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import image from '../bg.jpg';
 import './About.css';
-import Counter from 'Counter.js'
+// import Counter from 'Counter.js'
 
 const About = () => {
   const [status, setStatus] = useState("Submit");
@@ -43,7 +43,7 @@ const About = () => {
       <button type="submit">{status}</button>
     </form>   
     <container id="counter">
-      {Counter}
+      {/* {Counter} */}
     </container>
     </div> 
   );
