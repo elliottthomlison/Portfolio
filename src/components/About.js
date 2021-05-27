@@ -1,37 +1,134 @@
-import React from 'react';
-import image from '../bg.jpg';
+import { useForm } from 'react-hook-form';
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
 
-export default function Home() {
+export default function About() {
+    const { register, errors, handleSubmit, reset } = useForm();
+
+  const toastifySuccess = () => {
+    toast('Form sent!', {
+      position: 'bottom-right',
+      autoClose: 5000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: false,
+      className: 'submit-feedback success',
+      toastId: 'notifyToast'
+    });
+  };
+
+  const onSubmit = async (data) => {
+    // Send form email
+    try {
+      const templateParams = {
+        name: data.name,
+        email: data.email,
+        subject: data.subject,
+        message: data.message
+      };
+
+      await emailjs.send(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        templateParams,
+        process.env.REACT_APP_USER_ID
+      );
+
+      reset();
+      toastifySuccess();
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   return (
-    <main className="relative">
-      <img src={image} alt="background" className="absolute w-full" />
-      <div className="lg:pt-20 container mx-auto relative">
-        <section className=" ">
-          <div class="container mx-auto p-5 bg-blue-600	bg-opacity-50">
-          <div className="text-lg flex flex-col justify-center op">
-            <h1 className="cursive text-6xl text-gray-300 mb-4 hover:text-gray-900">
-              Hey there. Once again, I'm <span className="cursive text-6xl text-gray-100">Elliott</span>.
-            </h1>
-            <p className="cursive text-3xl text-gray-100 hover:text-gray-900">I am a Canadian man transitioning my career from education and law enforcement to front-end development. A transition that I hope will evolve in a workplace that I can expand my knowledge of CSS, HTML, JavaScript, React, along with other languages and frameworks.
-            </p>
-            
-            <br></br>
-            
-            <p className="cursive text-3xl text-gray-100 hover:text-gray-900">
-            I've lived in Quebec (Montréal and Trois-Rivières), South Korea (Daejeon), and now I've returned home to Vancouver. I enjoy throwing frisbees, attempting muscle-ups, reading, attempting my hand at art, and the mental challenge of coding. This year I will become increasingly competent as a developer and look forward to finding a team to expedite that process.
-            </p>
+    <div className='ContactForm'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-12 text-center'>
+            <div className='contactForm'>
+              <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
+                {/* Row 1 of form */}
+                <div className='row formRow'>
+                  <div className='col-6'>
+                    <input
+                      type='text'
+                      name='name'
+                      ref={register({
+                        required: { value: true, message: 'Please enter your name' },
+                        maxLength: {
+                          value: 30,
+                          message: 'Please use 30 characters or less'
+                        }
+                      })}
+                      className='form-control formInput'
+                      placeholder='Name'
+                    ></input>
+                    {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
+                  </div>
+                  <div className='col-6'>
+                    <input
+                      type='email'
+                      name='email'
+                      ref={register({
+                        required: true,
+                        pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+                      })}
+                      className='form-control formInput'
+                      placeholder='Email address'
+                    ></input>
+                    {errors.email && (
+                      <span className='errorMessage'>Please enter a valid email address</span>
+                    )}
+                  </div>
+                </div>
+                {/* Row 2 of form */}
+                <div className='row formRow'>
+                  <div className='col'>
+                    <input
+                      type='text'
+                      name='subject'
+                      ref={register({
+                        required: { value: true, message: 'Please enter a subject' },
+                        maxLength: {
+                          value: 75,
+                          message: 'Subject cannot exceed 75 characters'
+                        }
+                      })}
+                      className='form-control formInput'
+                      placeholder='Subject'
+                    ></input>
+                    {errors.subject && (
+                      <span className='errorMessage'>{errors.subject.message}</span>
+                    )}
+                  </div>
+                </div>
+                {/* Row 3 of form */}
+                <div className='row formRow'>
+                  <div className='col'>
+                    <textarea
+                      rows={3}
+                      name='message'
+                      ref={register({
+                        required: true
+                      })}
+                      className='form-control formInput'
+                      placeholder='Message'
+                    ></textarea>
+                    {errors.message && <span className='errorMessage'>Please enter a message</span>}
+                  </div>
+                </div>
+                <button className='submit-btn' type='submit'>
+                  Submit
+                </button>
+              </form>
+            </div>
+            <ToastContainer />
           </div>
-
-          <br></br>
-            <p> 
-              <button className="cursive text-3xl text-gray-100 hover:text-gray-900">
-              <a className="button" href="https://docs.google.com/document/d/1vK_oHp8-uFBZkeXir0MbecwXX8mC5zZDc9emwsN6Lxs/edit?usp=sharing" > Check out my resume here! :) </a>
-              </button>
-            </p>
-          </div>
-        </section>
+        </div>
       </div>
-    </main>
+    </div>
   );
-}
-
+};
