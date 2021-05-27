@@ -1,20 +1,20 @@
   import React, {useState} from 'react';
-  import {
-      ModalWrap,
-      ModalContentWrap,
-      HeaderWrap,
-      FormWrap,
-      InputWrap,
-      InputField,
-      TextArea,
-      Button
-  } from './styles/contactModalStyles';
+  // import {
+  //     ModalWrap,
+  //     ModalContentWrap,
+  //     HeaderWrap,
+  //     FormWrap,
+  //     InputWrap,
+  //     InputField,
+  //     TextArea,
+  //     Button
+  // } from './styles/contactModalStyles';
   import close from '../assets/close.png';
-  import CircularProgress from '@material-ui/core/CircularProgress';
+  // import CircularProgress from '@material-ui/core/CircularProgress';
   import ErrorMessage from './errorMessage';
   import FormSuccess from './formSuccess';
   
-  const ContactModal = (props) => {
+  const About = (props) => {
       const [name, setName] = useState('');
       const [email, setEmail] = useState('');
       const [multiline, setMultiline] = useState('');
