@@ -29,7 +29,7 @@ export default function Home() {
             <div class="container mx-auto p-5 bg-blue-600	bg-opacity-50">
               <div className="text-lg flex flex-col justify-center op">
                 <button className="cursive text-4xl text-gray-100 hover:text-gray-900">
-                    <a className="button" href="https://docs.google.com/document/d/1vK_oHp8-uFBZkeXir0MbecwXX8mC5zZDc9emwsN6Lxs/edit?usp=sharing" > Check out my resume here! :) 
+                    <a className="button" href="https://drive.google.com/file/d/1cColA806srPvtQYb3sdQXk8nh__JUKRz/view?usp=sharing" > Check out my resume here! :) 
                     </a>
                 </button>
               </div>
