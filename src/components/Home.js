@@ -30,7 +30,7 @@ export default function Home() {
               Hi there, I'm <span className="cursive text-6xl text-gray-100">Elliott</span>.
              
             </h1>
-            <p className="cursive text-4xl text-gray-100 hover:text-gray-900">I am a Canadian man transitioning my career from education and law enforcement to front-end development. A transition that I hope will evolve in a workplace that I can expand my knowledge of CSS, HTML, JavaScript, React, along with other languages and frameworks.
+            <p className="cursive text-4xl text-gray-100 hover:text-gray-900">I am a Canadian man transitioning my career from education and law enforcement to frontend development. A transition that will evolve in a workplace that I can expand my knowledge of CSS, HTML, JavaScript, React, jQuery, and other technologies.
             </p>
             
             <br></br>
@@ -46,7 +46,7 @@ export default function Home() {
             <div class="container mx-auto p-5 bg-blue-600	bg-opacity-50">
               <div className="text-lg flex flex-col justify-center op">
                 <button className="cursive text-4xl text-gray-100 hover:text-gray-900">
-                    <a className="button" href="https://drive.google.com/file/d/1cColA806srPvtQYb3sdQXk8nh__JUKRz/view?usp=sharing" > Check out my resume here! :) 
+                    <a className="button" href="https://drive.google.com/file/d/1ULhMdc-i-7YZMNFTAbuVqKMmD0xtnKcu/view?usp=sharing" > Check out my resume here! :) 
                     </a>
                 </button>
               </div>
