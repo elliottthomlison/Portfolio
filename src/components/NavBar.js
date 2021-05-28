@@ -27,10 +27,6 @@ export default function NavBar() {
             <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 mr-4 text-blue-100 hover:text-gray-900 text-4xl font-bold cursive tracking-widest">
               Projects
             </NavLink>
-
-            <NavLink to="/about" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-gray-900 text-4xl font-bold cursive tracking-widest">
-              Contact
-            </NavLink>
             </div>
           </div>
         </div>
