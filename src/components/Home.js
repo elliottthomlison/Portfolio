@@ -1,7 +1,23 @@
-import React from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import image from '../bg.jpg';
 
+
 export default function Home() {
+
+  const [state, setState] = useState({value:''}) 
+
+  useEffect(() => {
+    axios.get('https://api.countapi.xyz/update/hellothere/elliott2.netlify.app/?amount=1')
+    .then(function (response) {
+      setState(response.data);
+      console.log(state)
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  }, [])
+
   return (
     <main className="relative">
       <img src={image} alt="background" className="absolute w-full" />
@@ -11,7 +27,8 @@ export default function Home() {
           <div class="container mx-auto p-5 bg-blue-600	bg-opacity-50">
           <div className="text-lg flex flex-col justify-center op">
             <h1 className="cursive text-6xl text-gray-300 mb-4 hover:text-gray-900">
-              Hi there, I'm <span className="cursive text-6xl text-gray-100">Elliott</span>.
+              {/* Hi there, I'm <span className="cursive text-6xl text-gray-100">Elliott</span>. */}
+              {state.value} Visits
             </h1>
             <p className="cursive text-4xl text-gray-100 hover:text-gray-900">I am a Canadian man transitioning my career from education and law enforcement to front-end development. A transition that I hope will evolve in a workplace that I can expand my knowledge of CSS, HTML, JavaScript, React, along with other languages and frameworks.
             </p>

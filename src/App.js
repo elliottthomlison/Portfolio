@@ -23,6 +23,7 @@ function App() {
       <Route component={Post} path='/post' />
       <Route component={Project} path='/project' />
     </Switch>
+    
   </BrowserRouter>
   )
 }
