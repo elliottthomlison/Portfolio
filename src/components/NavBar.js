@@ -33,7 +33,7 @@ export default function NavBar() {
         <div className="hidden md:block">
           <div className="ml-4 flex items-center md:ml-6">
           <p className="inflex-flex items-center py-6 px-6 mr-4 text-blue-100 hover:text-gray-900 text-4xl font-bold cursive tracking-widest">
-              <a href="mailto: elliott.thomlison@gmail.com">Contact Me</a>
+              <a href="mailto: elliott.thomlison@gmail.com"><Ripple classes="btn">Contact Me</Ripple></a>
               </p>
               <div className="ml-3 relative">
               <div>                   
