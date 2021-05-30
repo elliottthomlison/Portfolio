@@ -2,12 +2,12 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { SocialIcon } from 'react-social-icons'
 import './NavBar.css'
-import Ripple from './Ripple.js';
+import Ripple from './Ripple.js'
 
 // these are the links that will be available in the navbar
 export default function NavBar() {
   return (
-    // <header classNameName="bg-blue-600">
+    <header className="sticky">
 <div>
   <nav className="bg-blue-600 py-4">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,7 +50,7 @@ export default function NavBar() {
     </div>
   </nav>
 </div>
-
+</header>
     
   )
 }
