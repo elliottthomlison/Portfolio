@@ -2,7 +2,6 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import image from '../bg.jpg';
 
-
 export default function Home() {
 
   const [state, setState] = useState({value:''}) 
