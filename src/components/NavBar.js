@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { SocialIcon } from 'react-social-icons'
+import './NavBar.css'
+import Ripple from './Ripple.js';
 
 // these are the links that will be available in the navbar
 export default function NavBar() {
@@ -16,13 +18,13 @@ export default function NavBar() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
             <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-1 px-6 mr-4 text-blue-100 hover:text-gray-900 text-5xl font-bold cursive tracking-widest">
-            Elliott's Corner
+              <Ripple classes="btn">Elliott's Corner</Ripple>
             </NavLink>          
             <NavLink to="/post" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 mr-4 text-blue-100 hover:text-gray-900 text-4xl font-bold cursive tracking-widest"> 
-            Blog Posts
+              <Ripple classes="btn">Blog Posts</Ripple>
             </NavLink>
             <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 mr-4 text-blue-100 hover:text-gray-900 text-4xl font-bold cursive tracking-widest">
-              Projects
+              <Ripple classes="btn">Projects</Ripple>
             </NavLink>         
             </div>
           </div>
