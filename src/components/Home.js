@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <main className="relative">
-      <img src={image} alt="background" className="absolute w-full" />
+      {/* <img src={image} alt="background" className="absolute w-full" /> */}
       <div className="lg:pt-20 container mx-auto relative">
         <h1 className ="text-6xl text-green-100 font-bold cursive lg:leading-snug home-name hover:text-gray-900 text-center">Welcome!</h1>
         <section class="mt-10">
