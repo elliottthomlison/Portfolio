@@ -39,7 +39,7 @@ export default function NavBar() {
               </p>
               <div className="ml-3 relative">
               <div>  
-              <a className="px-2" href="mailto: elliott.thomlison@gmail.com">
+              <a className="px-2 text-1xl font-bold cursive tracking-widest" href="mailto: elliott.thomlison@gmail.com">
                 <Ripple >Contact Me</Ripple>
               </a>               
               <SocialIcon url='https://codepen.io/elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/> 
