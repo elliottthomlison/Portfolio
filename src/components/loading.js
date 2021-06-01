@@ -40,7 +40,7 @@ export default class Loading extends React.Component {
             this.setState({ done: true });
           }, 1000);
         });
-    }, 2000);
+    }, 3500);
   }
 
   render() {
@@ -50,7 +50,7 @@ export default class Loading extends React.Component {
           <FadeIn>
             <div class="d-flex justify-content-center align-items-center">
               {!this.state.loading ? (
-                <Lottie options={defaultOptions} height={800} width={700} />
+                <Lottie options={defaultOptions} height={1000} width={1000} />
               ) : (
                 <Lottie options={defaultOptions2} height={1000} width={1000} />
               )}
