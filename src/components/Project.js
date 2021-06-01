@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
 import bg2 from "../bg.jpg";
-
+import './Project.css'
 
 export default function Project() {
   const [projectData, setProjectData] = useState(null);
@@ -74,6 +74,7 @@ export default function Project() {
                     👈
                     </span>
                   </a>
+                   
                 </div>
               </article>
             ))}
