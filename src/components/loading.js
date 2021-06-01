@@ -57,7 +57,7 @@ export default class Loading extends React.Component {
             </div>
           </FadeIn>
         ) : (
-<h1></h1>        )}
+      <td></td>        )}
       </div>
     );
   }
