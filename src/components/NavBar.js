@@ -9,7 +9,7 @@ export default function NavBar() {
   return (
     <header className="sticky">
 <div>
-  <nav className="bg-blue-600 py-4">
+  <nav className="bg-blue-600 py-10">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex items-center justify-between h-16">
         <div className="flex items-center">
@@ -33,7 +33,7 @@ export default function NavBar() {
         <div className="hidden md:block">
           <div className="ml-4 flex items-center md:ml-6">
           <p className="inflex-flex items-center py-6 px-6 mr-4 text-blue-100 hover:text-gray-900 text-4xl font-bold cursive tracking-widest">
-              <a href="mailto: elliott.thomlison@gmail.com"><Ripple classes="btn">Contact Me</Ripple></a>
+              <a href="mailto: elliott.thomlison@gmail.com"><Ripple className="inflex-flex items-center py-1 px-6 mr-4 text-blue-100 hover:text-gray-900 text-5xl font-bold cursive tracking-widest">Contact Me</Ripple></a>
               </p>
               <div className="ml-3 relative">
               <div>                   
