@@ -32,7 +32,7 @@ export default function Post() {
   return (
     <main className="absolute object-cover w-full h-full">
 
-    {/* <img src={bg2} alt="background" className="absolute object-cover w-full h-120"/> */}
+    <img src={bg2} alt="background" className="absolute object-cover w-full h-120"/>
   
   <section className="container mx-auto">
   <h1 className="relative text-6xl text-blue-100 flex justify-center cursive pt-20 hover:text-gray-900">Welcome to my Blog Posts Page!</h1>
