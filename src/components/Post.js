@@ -32,11 +32,11 @@ export default function Post() {
   return (
     <main className="absolute object-cover w-full h-full">
 
-    <img src={bg2} alt="background" className="absolute object-cover w-full h-120"/>
+    {/* <img src={bg2} alt="background" className="absolute object-cover w-full h-120"/> */}
   
   <section className="container mx-auto">
-  <h1 className="relative text-6xl text-blue-100 flex justify-center cursive pt-20 hover:text-gray-900">Welcome to my Blog Posts Page!</h1>
-        <h2 className="relative text-4xl text-gray-100 flex justify-center mb-12 pb-10 hover:text-gray-900">
+  <h1 className="relative text-6xl text-blue-900 flex justify-center cursive pt-20 hover:text-gray-900">Welcome to my Blog Posts Page!</h1>
+        <h2 className="relative text-4xl text-gray-900 flex justify-center mb-12 pb-10 hover:text-gray-900">
           Here I share posts that I've published on Medium.com 
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">

@@ -16,7 +16,7 @@ export default function NavBar() {
           <div className="flex-shrink-0">
           </div>
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div>
             <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-1 px-6 mr-4 text-blue-100 hover:text-gray-900 text-5xl font-bold cursive tracking-widest">
               <Ripple classes="btn">Elliott's Corner</Ripple>
             </NavLink>          
