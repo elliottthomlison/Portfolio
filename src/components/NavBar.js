@@ -31,12 +31,17 @@ export default function NavBar() {
         </div>
         
         <div className="hidden md:block">
+          {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> 
+          </div> */}
           <div className="ml-4 flex items-center md:ml-6">
           <p className="inflex-flex items-center py-6 px-6 mr-4 text-blue-100 hover:text-gray-900 text-4xl font-bold cursive tracking-widest">
-              <a href="mailto: elliott.thomlison@gmail.com"><Ripple className="inflex-flex items-center py-1 px-6 mr-4 text-blue-100 hover:text-gray-900 text-5xl font-bold cursive tracking-widest">Contact Me</Ripple></a>
+             
               </p>
               <div className="ml-3 relative">
-              <div>                   
+              <div>  
+              <a className="px-2" href="mailto: elliott.thomlison@gmail.com">
+                <Ripple >Contact Me</Ripple>
+              </a>               
               <SocialIcon url='https://codepen.io/elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/> 
               <SocialIcon url='https://medium.com/@elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/> 
               <SocialIcon url='https://www.linkedin.com/in/elliott-thomlison/' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/>

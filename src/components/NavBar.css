@@ -10,6 +10,10 @@
   cursor: pointer;
 }
 
+.ripple-button:hover {
+  color: black;
+}
+
 .ripple-button > .ripple {
   width: 20px;
   height: 20px;
