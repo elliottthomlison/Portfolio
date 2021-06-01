@@ -36,7 +36,7 @@ export default function Project() {
         <section className="grid grid-cols-3 gap-5">
           {projectData &&
             projectData.map((project, index) => (
-              <article className="bg-gray-400 relative rounded-lg shadow-xl bg-white p-16">
+              <article className="bg-gray-400 relative rounded-lg shadow-xl bg-white p-16  bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
                 <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                   <a
                     href={project.link}
