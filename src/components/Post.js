@@ -55,7 +55,7 @@ export default function Post() {
               className="w-full h-full rounded-r object-cover absolute"
             />
             <span className="relative justify items-start">
-              <h3 className="items-start text-lg px-3 py-4 bg-blue-700 text-blue-100 bg-opacity-75 rounded">
+              <h3 className="items-start text-lg px-3 py-4 bg-gray-900 text-blue-100 rounded">
                 {post.title}
               </h3>
               
