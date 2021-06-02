@@ -9,7 +9,7 @@ export default function NavBar() {
   return (
     <header className="sticky">
 <div>
-  <nav className="bg-blue-600 py-10">
+  <nav className="bg-gray-900 py-10">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex items-center justify-between h-16">
         <div className="flex items-center">
@@ -17,15 +17,22 @@ export default function NavBar() {
           </div>
           <div className="hidden md:block">
             <div>
-            <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-1 px-6 mr-4 text-blue-100 hover:text-gray-900 text-5xl font-bold cursive tracking-widest">
+            <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-gray-900 text-6xl font-bold cursive tracking-widest">
               <Ripple classes="btn">Elliott's Corner</Ripple>
             </NavLink>          
-            <NavLink to="/post" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 mr-4 text-blue-100 hover:text-gray-900 text-4xl font-bold cursive tracking-widest"> 
+            <NavLink to="/post" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest"> 
               <Ripple classes="btn">Blog Posts</Ripple>
             </NavLink>
-            <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 mr-4 text-blue-100 hover:text-gray-900 text-4xl font-bold cursive tracking-widest">
+            <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
               <Ripple classes="btn">Projects</Ripple>
-            </NavLink>         
+            </NavLink>   
+            <NavLink to="">
+              <Ripple classes="btn">
+                <a className="no-underline button text-white inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest" href="https://drive.google.com/file/d/1ULhMdc-i-7YZMNFTAbuVqKMmD0xtnKcu/view?usp=sharing">Resume</a>
+                </Ripple></NavLink>
+              <a className="px-2 text-4xl font-bold cursive tracking-widest" href="mailto: elliott.thomlison@gmail.com">
+                <Ripple >Contact Me</Ripple>
+              </a>              
             </div>
           </div>
         </div>
@@ -38,10 +45,7 @@ export default function NavBar() {
              
               </p>
               <div className="ml-3 relative">
-              <div>  
-              <a className="px-2 text-1xl font-bold cursive tracking-widest" href="mailto: elliott.thomlison@gmail.com">
-                <Ripple >Contact Me</Ripple>
-              </a>               
+              <div>        
               <SocialIcon url='https://codepen.io/elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/> 
               <SocialIcon url='https://medium.com/@elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/> 
               <SocialIcon url='https://www.linkedin.com/in/elliott-thomlison/' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/>

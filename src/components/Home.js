@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import image from '../bg.jpg';
+import Typical from 'react-typical'
+import './home.css'
 
 export default function Home() {
 
@@ -21,36 +23,50 @@ export default function Home() {
     <main className="relative">
       {/* <img src={image} alt="background" className="absolute w-full" /> */}
       <div className="lg:pt-20 container mx-auto relative ">
-        <h1 className ="text-6xl text-green-900 font-bold cursive lg:leading-snug home-name hover:text-gray-900 text-center">Welcome!</h1>
+        <h1 className ="text-6xl text-green-900 font-bold cursive lg:leading-snug home-name hover:text-gray-900 text-center"></h1>
         <section class="mt-10">
-          <div class="container mx-auto p-5 bg-blue-600	bg-opacity-50">
+          <div >
           <div className="text-lg flex flex-col justify-center op">
-            <h1 className=" text-4xl text-gray-300 mb-4 hover:text-gray-900">
-              Hi there, I'm <span className="cursive text-5xl text-gray-100">Elliott</span>.
+            <h1 className="text-4xl text-gray-900 mb-4 hover:text-gray-900">
+              <p>Hi there, I'm Elliott. 
+                <Typical
+                loop={Infinity}
+                wrapper="b"
+                steps={[
+                  ' I am a frontend developer.',
+                  2500,
+                  ' I am a frisbee player.',
+                  2500,
+                  ' I am a Canadian.',
+                  2500,
+                  ' I am a constant learner.',
+                  2500,
+                  ' I am transitioning my career into frontend development.',
+                  2500,
+                  ' I am a lover of Cadbury mini eggs.',
+                  2500,
+                  ' I am able to speak French, Korean, and soon Mandarin.',
+                  2500,
+                  ' I have lived throughout Quebec, and in South Korea. ',
+                ]}
+                
+                />
+              </p>
              
             </h1>
-            <p className=" text-3xl text-gray-100 hover:text-gray-900">I am a Canadian man transitioning my career from education and law enforcement to frontend development. A transition that will evolve in a workplace that I can expand my knowledge of CSS, HTML, JavaScript, React, jQuery, and other technologies.
-            </p>
             
+            <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href="www.lighthouselabs.ca">Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails, and other software and skills both in the frontend and backend. I created multiple projects individually and collaboratively, as can be seen in the projects tab. I am eager to find a workplace where I can continue to learn and develop my skills, first as a frontend developer and later as a full stack developer. 
+            </p>
+{/* 
             <br></br>
             
-            <p className=" text-3xl text-gray-100 hover:text-gray-900">
+            <p className=" text-3xl text-gray-900 hover:text-gray-900">
             I've lived in Quebec (Montréal and Trois-Rivières), South Korea (Daejeon), and now I've returned home to Vancouver. I enjoy throwing frisbees, attempting muscle-ups, reading, attempting my hand at art, and the mental challenge of coding. This year I will become increasingly competent as a developer and look forward to finding a team to expedite that process.
-            </p>
+            </p> */}
           </div>
           </div>
             </section>
             
-          <section>
-            <div class="container mx-auto p-5 bg-blue-600	bg-opacity-50">
-              <div className="text-lg flex flex-col justify-center op">
-                <button className="cursive text-4xl text-gray-100 hover:text-gray-900">
-                    <a className="button" href="https://drive.google.com/file/d/1ULhMdc-i-7YZMNFTAbuVqKMmD0xtnKcu/view?usp=sharing" > Check out my resume here! :) 
-                    </a>
-                </button>
-              </div>
-            </div>
-          </section>
       </div>
       <div>
       {state.value}

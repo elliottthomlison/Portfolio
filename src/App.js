@@ -5,10 +5,13 @@ import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Home from "./components/Home";
 import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
-import Project from "./components/Project";
+import ProjectCards from "./components/ProjectCards.js";
 // calling the navbar below here and placing inside the function
 import NavBar from "./components/NavBar";
 import Loading from './components/loading.js'
+
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+
 
 function App() {
   return (
@@ -25,7 +28,7 @@ function App() {
       <Route component={Home} path='/' exact />
       <Route component={SinglePost} path='/post/:slug' />
       <Route component={Post} path='/post' />
-      <Route component={Project} path='/project' />
+      <Route component={ProjectCards} path='/project' />
     </Switch>
     
   </BrowserRouter>
