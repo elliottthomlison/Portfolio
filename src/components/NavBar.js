@@ -28,10 +28,10 @@ export default function NavBar() {
             </NavLink>
             
               <Ripple classes="btn">
-                <a className="no-underline button text-white inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest" href="https://drive.google.com/file/d/1ULhMdc-i-7YZMNFTAbuVqKMmD0xtnKcu/view?usp=sharing">Resume</a>
+                <a className="no-underline button text-white inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest"><td onClick={()=> window.open("https://drive.google.com/file/d/1ULhMdc-i-7YZMNFTAbuVqKMmD0xtnKcu/view?usp=sharing")}>Resume</td></a>
                 </Ripple>
               <a className="px-2 text-4xl font-bold cursive tracking-widest" href="mailto: elliott.thomlison@gmail.com">
-                <Ripple >Contact Me</Ripple>
+                <Ripple>Contact Me</Ripple>
               </a>              
             </div>
           </div>
