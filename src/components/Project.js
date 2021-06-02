@@ -10,14 +10,9 @@ const Project = props =>{
       </div>
      <div className="card-body text-dark">
        <h4 className="card-title">{props.title}</h4>
-       <p className="card-text text-secondary">
-         Lorem ipsum placeholder          
-         Lorem ipsum placeholder 
-         Lorem ipsum placeholder 
-         Lorem ipsum placeholder 
-         Lorem ipsum placeholder 
+       <p className="card-text text-secondary">{props.description}
        </p>
-       <a href="#" className="btn btn-outline-success">Go Anywhere</a>
+       <a href="#" className="btn btn-outline-success">{props.github}</a>
      </div>
     </div>
   )
