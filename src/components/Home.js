@@ -34,20 +34,20 @@ export default function Home() {
                 wrapper="b"
                 steps={[
                   ' I am a frontend developer.',
-                  2500,
-                  ' I am a frisbee player.',
-                  2500,
-                  ' I am a Canadian.',
-                  2500,
+                  2000,
                   ' I am a constant learner.',
-                  2500,
+                  2000,
                   ' I am transitioning my career into frontend development.',
                   2500,
                   ' I am a lover of Cadbury mini eggs.',
-                  2500,
+                  2300,
+                  ' I am a frisbee player.',
+                  2000,
                   ' I am able to speak French, Korean, and soon Mandarin.',
                   2500,
-                  ' I have lived throughout Quebec, and in South Korea. ',
+                  ' I have lived throughout Quebec, Ontario, and South Korea. ',
+                  2500,
+                  ' Yet, I am Canadian and have returned to Vancouver.'
                 ]}
                 
                 />
@@ -57,19 +57,13 @@ export default function Home() {
             
             <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href id="LHL" onClick={()=> window.open("www.lighthouselabs.ca")}>Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails, and other software and skills both in the frontend and backend. I created multiple projects individually and collaboratively, as can be seen in the projects tab. I am eager to find a workplace where I can continue to learn and develop my skills, first as a frontend developer and later as a full stack developer. 
             </p>
-{/* 
-            <br></br>
-            
-            <p className=" text-3xl text-gray-900 hover:text-gray-900">
-            I've lived in Quebec (Montréal and Trois-Rivières), South Korea (Daejeon), and now I've returned home to Vancouver. I enjoy throwing frisbees, attempting muscle-ups, reading, attempting my hand at art, and the mental challenge of coding. This year I will become increasingly competent as a developer and look forward to finding a team to expedite that process.
-            </p> */}
           </div>
           </div>
             </section>
             
       </div>
       <div id="counter">
-      {state.value} Visitors have seen the magic of this page
+      {state.value} visitors have seen the magic of this page
       </div>
     </main>
   );
