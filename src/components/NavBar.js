@@ -19,13 +19,13 @@ export default function NavBar() {
             <div>
             <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-gray-900 text-6xl font-bold cursive tracking-widest">
               <Ripple classes="btn">Elliott's Corner</Ripple>
-            </NavLink>          
+            </NavLink>     
+            <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
+              <Ripple classes="btn">Projects</Ripple>
+            </NavLink>        
             <NavLink to="/post" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest"> 
               <Ripple classes="btn">Blog Posts</Ripple>
             </NavLink>
-            <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
-              <Ripple classes="btn">Projects</Ripple>
-            </NavLink>   
             <NavLink to="">
               <Ripple classes="btn">
                 <a className="no-underline button text-white inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest" href="https://drive.google.com/file/d/1ULhMdc-i-7YZMNFTAbuVqKMmD0xtnKcu/view?usp=sharing">Resume</a>
