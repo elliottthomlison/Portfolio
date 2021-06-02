@@ -4,3 +4,14 @@
   /* box-sizing: border-box;
   font-family: monospace; */
 }
+
+#counter {
+  overflow: hidden;
+  /* background-color: #333; */
+  position: fixed; /* Set the navbar to fixed position */
+  text-align: center;
+
+  bottom: 0; /* Position the navbar at the top of the page */
+  margin: auto;
+  width: 100%;
+}

@@ -68,8 +68,8 @@ export default function Home() {
             </section>
             
       </div>
-      <div>
-      {state.value}
+      <div id="counter">
+      {state.value} Visitors have seen the magic of this page
       </div>
     </main>
   );
