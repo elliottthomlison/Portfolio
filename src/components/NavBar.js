@@ -18,21 +18,26 @@ export default function NavBar() {
           <div className="hidden md:block">
             <div>
             <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-gray-900 text-6xl font-bold cursive tracking-widest">
-              <Ripple classes="btn">Elliott's Corner</Ripple>
+              <Ripple >Elliott's Corner</Ripple>
             </NavLink>     
+            
             <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
-              <Ripple classes="btn">Projects</Ripple>
+              <Ripple >Projects</Ripple>
             </NavLink>        
+            
             <NavLink to="/post" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest"> 
-              <Ripple classes="btn">Blog Posts</Ripple>
+              <Ripple >Blog Posts</Ripple>
             </NavLink>
             
-              <Ripple classes="btn">
-                <a className="no-underline button text-white inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest"><td onClick={()=> window.open("https://drive.google.com/file/d/1ULhMdc-i-7YZMNFTAbuVqKMmD0xtnKcu/view?usp=sharing")}>Resume</td></a>
-                </Ripple>
-              <a className="px-2 text-4xl font-bold cursive tracking-widest" href="mailto: elliott.thomlison@gmail.com">
-                <Ripple>Contact Me</Ripple>
-              </a>              
+            <a id="resumeButton" className="no-underline button text-white inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
+              <Ripple >
+            <td onClick={()=> window.open("https://drive.google.com/file/d/1ULhMdc-i-7YZMNFTAbuVqKMmD0xtnKcu/view?usp=sharing")}>Resume</td>
+              </Ripple>
+            </a>
+            
+            <a className="px-2 text-4xl font-bold cursive tracking-widest" href="mailto: elliott.thomlison@gmail.com">
+              <Ripple>Contact Me</Ripple>
+            </a>              
             </div>
           </div>
         </div>

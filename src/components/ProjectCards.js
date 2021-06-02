@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
+import React  from 'react'
 import Project from './Project.js'
 import './projectCards.css' 
-import bg2 from "../bg.jpg";
+import MiTienda from "../images/MiTienda.gif";
 
-class ProjectCards extends Component {
-  render() {
+const ProjectCards = () => {
     return (
       
       <section>
@@ -14,54 +13,53 @@ class ProjectCards extends Component {
       <div className="container-fluid d-flex justify-content-center">
        <div className="row">
           <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/>
+          <Project imgsrc={MiTienda} title="Console"/>
         </div>
         <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/>
+          <Project imgsrc={MiTienda} title="Console"/>
         </div>
         <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/>
+          <Project imgsrc={MiTienda} title="Console"/>
         </div>
         <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/> 
+          <Project imgsrc={MiTienda} title="Console"/> 
         </div>
        </div>
       </div>
       <div className="container-fluid d-flex justify-content-center">
        <div className="row">
           <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/>
+          <Project imgsrc={MiTienda} title="Console"/>
         </div>
         <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/>
+          <Project imgsrc={MiTienda} title="Console"/>
         </div>
         <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/>
+          <Project imgsrc={MiTienda} title="Console"/>
         </div>
         <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/> 
+          <Project imgsrc={MiTienda} title="Console"/> 
         </div>
        </div>
       </div>
       <div className="container-fluid d-flex justify-content-center">
        <div className="row">
           <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/>
+          <Project imgsrc={MiTienda} title="Console"/>
         </div>
         <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/>
+          <Project imgsrc={MiTienda} title="Console"/>
         </div>
         <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/>
+          <Project imgsrc={MiTienda} title="Console"/>
         </div>
         <div className="col-md-3">
-          <Project imgsrc={bg2} title="Console"/> 
+          <Project imgsrc={MiTienda} title="Console"/> 
         </div>
        </div>
       </div>
       </section>
     )
   }
-}
 
 export default ProjectCards
