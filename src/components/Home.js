@@ -34,10 +34,10 @@ export default function Home() {
               
               ><Typewriter
               onInit={(typewriter) => {
-                typewriter.typeString('Hi, I am Elliott. <span role="img" aria-label="sheep">🐑</span>')
+                typewriter.typeString('Hi, I am Elliott. 👋')
                   .pauseFor(500)
                   .deleteAll()
-                typewriter.typeString('I am a frontend developer. <span role="img" aria-label="sheep">🐑</span>')
+                typewriter.typeString('I am a frontend developer. 👨‍💻')
                   .pauseFor(500)
                   .deleteAll()
                 typewriter.typeString('I was previously a teacher and corrections officer. 👮')
