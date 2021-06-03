@@ -34,22 +34,22 @@ export default function Home() {
               
               ><Typewriter
               onInit={(typewriter) => {
-                typewriter.typeString('I am Elliott.')
+                typewriter.typeString('Hi, I am Elliott. <span role="img" aria-label="sheep">🐑</span>')
                   .pauseFor(500)
                   .deleteAll()
-                typewriter.typeString('I am a frontend developer.')
+                typewriter.typeString('I am a frontend developer. <span role="img" aria-label="sheep">🐑</span>')
                   .pauseFor(500)
                   .deleteAll()
-                typewriter.typeString('I was previously a teacher and corrections officer.')
+                typewriter.typeString('I was previously a teacher and corrections officer. 👮')
                   .pauseFor(500)
                   .deleteAll()
-                typewriter.typeString('I have learnt to speak French, Korean, and currently I am studying Mandarin.')
+                typewriter.typeString('I have learnt French, Korean, and currently I am studying Mandarin.😵')
                   .pauseFor(500)  
                   .deleteAll()
-                typewriter.typeString('I am a lover of Cadbury mini eggs.')              
+                typewriter.typeString('I am a lover of Cadbury mini eggs.🤤')              
                   .pauseFor(500)   
                   .deleteAll() 
-                typewriter.typeString('I am your new employee.')              
+                typewriter.typeString('I am your new employee.🤝')              
                   .pauseFor(500)   
                   .start()         
               }}
