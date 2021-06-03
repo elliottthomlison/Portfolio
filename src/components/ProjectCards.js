@@ -1,7 +1,10 @@
 import React  from 'react'
 import Project from './Project.js'
 import './projectCards.css' 
+
+//gifs and images
 import MiTienda from "../images/MiTienda.gif";
+import Tweeter from "../images/Tweeter.gif";
 
 const ProjectCards = () => {
     return (
@@ -12,10 +15,10 @@ const ProjectCards = () => {
       <div className="container-fluid d-flex justify-content-center">
         <div className="row">
           <div className="col-md-3">
-          <Project imgsrc={MiTienda} title="Console" description="Test" github="Test"/>
+          <Project imgsrc={MiTienda} title="Console" description="Test" github="Test👈"/>
         </div>
         <div className="col-md-3">
-          <Project imgsrc={MiTienda} title="Console"/>
+          <Project imgsrc={Tweeter} title="Console"/>
         </div>
         <div className="col-md-3">
           <Project imgsrc={MiTienda} title="Console"/>

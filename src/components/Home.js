@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import image from '../bg.jpg';
-import Typical from 'react-typical'
+import Typewriter from 'typewriter-effect';
 import './home.css'
 
 export default function Home() {
@@ -28,33 +27,21 @@ export default function Home() {
           <div >
           <div className="text-lg flex flex-col justify-center op">
             <h1 className="text-4xl text-gray-900 mb-4 hover:text-gray-900">
-              <p>Hi there, I'm Elliott. 
-                <Typical
-                loop={Infinity}
-                wrapper="b"
-                steps={[
-                  ' I am a frontend developer.',
-                  2000,
-                  ' I am a constant learner.',
-                  2000,
-                  ' I am transitioning my career into frontend development.',
-                  2500,
-                  ' I am a lover of Cadbury mini eggs.',
-                  2300,
-                  ' I am a frisbee player.',
-                  2000,
-                  ' I am able to speak French, Korean, and soon Mandarin.',
-                  2500,
-                  ' I have lived throughout Quebec, Ontario, and South Korea. ',
-                  2500,
-                  ' Yet, I am Canadian and have returned to Vancouver.'
-                ]}
-                
-                />
-              </p>
-             
+
+            {/* https://www.npmjs.com/package/typewriter-effect */}
+            <p>Hi there, I'm Elliott. <Typewriter
+              options={{
+                strings: ['I am a frontend developer.', 'I am a constant learner.', 'I am transitioning my career into frontend development.', 'I am able to speak French, Korean, and soon Mandarin.', 'I have lived throughout Quebec, Ontario, and South Korea.', 'Yet, I am Canadian and have returned to Vancouver.', 'I am a lover of Cadbury mini eggs.', 
+              ],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 20,
+                pauseFor: 600,
+              }}
+            />
+            </p>
             </h1>
-            
+
             <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href id="LHL" onClick={()=> window.open("www.lighthouselabs.ca")}>Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails, and other software and skills both in the frontend and backend. I created multiple projects individually and collaboratively, as can be seen in the projects tab. I am eager to find a workplace where I can continue to learn and develop my skills, first as a frontend developer and later as a full stack developer. 
             </p>
           </div>
