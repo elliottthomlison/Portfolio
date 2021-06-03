@@ -8,7 +8,7 @@ export default function Home() {
   const [state, setState] = useState({value:''}) 
 
   useEffect(() => {
-    axios.get('https://api.countapi.xyz/update/hellothere/ethomlison.netlify.app/?amount=1')
+    axios.get('https://api.countapi.xyz/update/ethomlison.netlify.app/ethomlison.netlify.app/?amount=1')
     .then(function (response) {
       setState(response.data);
       console.log(state)
@@ -58,7 +58,7 @@ export default function Home() {
             </h2>
             </h1>
 
-            <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href id="LHL" onClick={()=> window.open("www.lighthouselabs.ca")}>Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails, and other software and skills both in the frontend and backend. I created multiple projects individually and collaboratively, as can be seen in the projects tab. I am eager to find a workplace where I can continue to learn and develop my skills, first as a frontend developer and later as a full stack developer. 
+            <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href id="LHL" onClick={()=> window.open("www.lighthouselabs.ca")}>Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned and refined skills in CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails, and other software and skills both in the frontend and backend. I created multiple projects individually and collaboratively, as can be seen in the projects tab. I am eager to find a workplace where I can continue to learn and develop my skills, first as a frontend developer and later as a full stack developer. 
             </p>
           </div>
           
