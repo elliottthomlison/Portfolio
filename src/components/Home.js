@@ -46,7 +46,7 @@ export default function Home() {
                 typewriter.typeString('I have learnt French, Korean, and currently I am studying Mandarin.😵')
                   .pauseFor(500)  
                   .deleteAll()
-                typewriter.typeString('I am a lover of Cadbury mini eggs.🤤')              
+                typewriter.typeString('I am a lover of Cadbury mini eggs.🥚')              
                   .pauseFor(500)   
                   .deleteAll() 
                 typewriter.typeString('I am your new employee.🤝')              

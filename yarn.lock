@@ -4892,6 +4892,11 @@
   "resolved" "https://registry.npmjs.org/emailjs-com/-/emailjs-com-2.6.4.tgz"
   "version" "2.6.4"
 
+"emoji-picker-react@^3.4.7":
+  "integrity" "sha512-D/qNVdOyeiDWa12JQGj/P0JA+p9skfmT6KVWHd63FL6YVWqdpkvcmACofnM9617R690JDI8fd5X5FW9LKkuoPQ=="
+  "resolved" "https://registry.npmjs.org/emoji-picker-react/-/emoji-picker-react-3.4.7.tgz"
+  "version" "3.4.7"
+
 "emoji-regex@^7.0.1", "emoji-regex@^7.0.2":
   "integrity" "sha512-CwBLREIQ7LvYFB0WyRvwhq5N5qPhc6PMjD6bYggFlI5YyDgl+0vxq5VHbMOFqLg7hfWzmu8T5Z1QofhmTIhItA=="
   "resolved" "https://registry.npmjs.org/emoji-regex/-/emoji-regex-7.0.3.tgz"

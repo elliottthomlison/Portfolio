@@ -19,6 +19,7 @@
     "classnames": "^2.3.1",
     "cors": "^2.8.5",
     "emailjs-com": "^2.6.4",
+    "emoji-picker-react": "^3.4.7",
     "express": "^4.17.1",
     "file-saver": "^2.0.5",
     "firebase": "^8.6.2",
