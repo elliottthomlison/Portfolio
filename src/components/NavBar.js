@@ -7,21 +7,27 @@ import Ripple from './Ripple.js'
 // these are the links that will be available in the navbar
 export default function NavBar() {
   return (
-    <header className="sticky">
-<div>
-  <nav className="bg-gray-900 py-10">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="flex items-center justify-between h-16">
-        <div className="flex items-center">
-          <div className="flex-shrink-0">
-          </div>
-          <div className="hidden md:block">
-            <div>
-            <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-gray-900 text-6xl font-bold cursive tracking-widest">
+    
+    <nav class="bg-gray-900 py-10">
+   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <header class="flex items-center bg-gray-900 ">
+    <div class="flex-1 flex justify-between items-center">
+    <NavLink to="/" exact activeClassName="text-white" className="inflex-flex items-center py-2 px-2 text-blue-100 hover:text-gray-900 text-6xl font-bold cursive tracking-widest">
               <Ripple >Elliott's Corner</Ripple>
-            </NavLink>     
-            
-            <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
+            </NavLink> 
+    </div>
+
+    <label for="menu-toggle" class="pointer-cursor md:hidden block">
+      <svg id="hamburger" class="fill-current text-gray-900"
+        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
+    </label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+
+    <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+      <nav>
+      <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
               <Ripple >Projects</Ripple>
             </NavLink>        
             
@@ -35,36 +41,20 @@ export default function NavBar() {
               </Ripple>
             </a>
             
-            <a className="px-2 text-4xl font-bold cursive tracking-widest" href="mailto: elliott.thomlison@gmail.com">
+            <a className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest" href="mailto: elliott.thomlison@gmail.com">
               <Ripple>Contact Me</Ripple>
-            </a>              
-            </div>
-          </div>
-        </div>
-        
-        <div className="hidden md:block">
-          {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> 
-          </div> */}
-          <div className="ml-4 flex items-center md:ml-6">
-          <p className="inflex-flex items-center py-6 px-6 mr-4 text-blue-100 hover:text-gray-900 text-4xl font-bold cursive tracking-widest">
-             
-              </p>
-              <div className="ml-3 relative">
-              <div>        
-              <SocialIcon url='https://codepen.io/elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/> 
-              <SocialIcon url='https://medium.com/@elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/> 
-              <SocialIcon url='https://www.linkedin.com/in/elliott-thomlison/' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/>
-              <SocialIcon url='https://github.com/elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 35, width: 35}}/> 
-             
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            </a>     
+            <a className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
+              <SocialIcon url='https://medium.com/@elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 50, width: 50}}/> 
+              <SocialIcon url='https://www.linkedin.com/in/elliott-thomlison/' className='mr-4' target='_blank' fgColor='#fff' style={{height: 50, width: 50}}/>
+              <SocialIcon url='https://github.com/elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 50, width: 50}}/> 
+              </a>
+      </nav>
     </div>
-  </nav>
+  </header>
 </div>
-</header>
+</nav>
+
     
   )
 }

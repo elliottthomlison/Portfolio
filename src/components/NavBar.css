@@ -57,3 +57,19 @@
 #resumeButton:hover {
   color: black;
 }
+
+
+/* responsive portion */
+
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+#hamburger:hover {
+  cursor: pointer;
+}
+
+#hamburger { 
+  background-color: white !important;
+  color: white !important;
+}
