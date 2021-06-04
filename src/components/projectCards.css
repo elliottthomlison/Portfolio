@@ -7,7 +7,7 @@
 }
 
 .card:hover {
-  box-shadow: 5px 10px 20px 1px black !important;
+  box-shadow: 5px 10px 20px 1px gray !important;
 }
 
 .card-body {
