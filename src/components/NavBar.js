@@ -18,10 +18,7 @@ export default function NavBar() {
     </div>
 
     <label for="menu-toggle" class="pointer-cursor md:hidden block">
-      <svg id="hamburger" class="fill-current text-gray-900"
-        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-      </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 9.5H3M21 4.5H3M21 14.5H3M21 19.5H3"/></svg>
     </label>
     <input class="hidden" type="checkbox" id="menu-toggle" />
 
