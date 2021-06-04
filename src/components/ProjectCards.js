@@ -4,12 +4,13 @@ import './projectCards.css'
 
 //gifs and images
 import TiniestLittleApp from "../images/TiniestLittleApp.gif"
-import Tweeter from "../images/Tweeter.gif";
+import Tweeter from "../images/Tweeter.gif"
 import TapiocaLoca from "../images/TapiocaLoca.png"
 import MiCasa from "../images/MiCasa.png"
 import Interview from "../images/Interview.jpeg"
 import Jungle from "../images/Jungle.png"
-import MiTienda from "../images/MiTienda.gif";
+import MiTienda from "../images/MiTienda.gif"
+import MiCine from "../images/MiCine.gif"
 
 const ProjectCards = () => {
     return (
