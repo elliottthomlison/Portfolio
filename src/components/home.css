@@ -5,11 +5,11 @@
 
 #counter {
   overflow: hidden;
-  position: fixed; 
+  position: absolute; 
   text-align: center;
   bottom: 0; 
   margin: auto;
-  width: 82%;
+  width: 100%;
 }
 
 #LHL {
