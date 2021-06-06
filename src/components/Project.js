@@ -12,7 +12,7 @@ const Project = props =>{
        <h4 className="card-title">{props.title}</h4>
        <p className="card-text text-secondary">{props.description}
        </p>
-       <a href={props.stuff} target="_blank"   className="btn btn-outline-success">Check out the repository👈</a>
+       <a href={props.stuff} className="btn btn-outline-success">Check out the repository👈</a>
      </div>
     </div>
 
