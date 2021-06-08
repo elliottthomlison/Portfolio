@@ -1,6 +1,6 @@
 # Portfolio
 
-My portfolio was built using React, Sanity.io, Tailwind CSS, Material-UI, Express, and animations from LottieFiles. It is being hosted on via Netlify. My portfolio can be found <a href="elliottscorner.netlify.app">here</a>.
+My portfolio was built using React, Sanity.io, Tailwind CSS, Material-UI, Express, and animations from LottieFiles. It is being hosted on via Netlify. My portfolio can be found <a href="ethomlison.netlify.app">here</a>.
 
 ## Final Project 
 
