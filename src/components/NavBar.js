@@ -31,7 +31,7 @@ export default function NavBar() {
             </NavLink>
             <a id="resumeButton" className="no-underline button text-white inflex-flex items-center py-6 px-6 text-blue-100 text-4xl font-bold cursive tracking-widest">
               <Ripple>
-                <td onClick={()=> window.open("https://drive.google.com/file/d/1Pk1PBYd_jPMPr6ukawGxELrWnHv25YeK/view?usp=sharing")}>Resume</td>
+                <td onClick={()=> window.open("https://drive.google.com/file/d/1Dx9mVp7rAah92HQup1w-1x3P5GShkjNv/view?usp=sharing")}>Resume</td>
               </Ripple>
             </a>
             <a className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest" href="mailto: elliott.thomlison@gmail.com">
