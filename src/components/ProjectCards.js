@@ -15,6 +15,7 @@ import Codewars from "../images/Codewars.png"
 import Yelp from "../images/Yelp.png"
 import Instagram from "../images/Instagram.png"
 import RecipeApp from "../images/RecipeApp.gif"
+import Portfolio from "../images/Portfolio.gif"
 
 const ProjectCards = () => {
     return (
@@ -58,6 +59,10 @@ const ProjectCards = () => {
           </div>
           <div className="pt-32 px-10">
             <Project imgsrc={RecipeApp} title="React Projects" description="An ongoing repository of React projects created for the sake of practice." link="https://github.com/elliottthomlison/React-Projects" github="Check out the repository👈"/>
+          </div> 
+          {/* row four */}
+           <div className="pt-32 px-10">
+            <Project imgsrc={Portfolio} title="Portfolio" description="The repository contains details of this very portfolio." link="https://github.com/elliottthomlison/Portfolio" github="Check out the repository👈"/>
           </div> 
         </div>
       </div>
