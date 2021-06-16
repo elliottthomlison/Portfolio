@@ -35,7 +35,7 @@ useEffect(() => {
                 typewriter.typeString('Hi, I am Elliott. 🖖')
                   .pauseFor(500)
                   .deleteAll()
-                typewriter.typeString('I am a frontend engineer. 👨‍💻')
+                typewriter.typeString('I am a front-end developer. 👨‍💻')
                   .pauseFor(500)
                   .deleteAll()
                 typewriter.typeString('I was previously a teacher and corrections officer. 👮')
