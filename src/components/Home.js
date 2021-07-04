@@ -54,7 +54,7 @@ useEffect(() => {
             />
             </span>
             </h2>
-              <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href class="LHL" onClick={()=> window.open("http://www.lighthouselabs.ca")}>Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned and refined skills in <em>Git, CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails</em>, and other software competencies both in the front and backend. I created multiple projects individually and collaboratively, as can be seen in the <a class="LHL" href="https://ethomlison.netlify.app/project">projects</a> tab. I am eager to find a workplace where I can continue to learn and develop my mastery, first as a frontend engineer and eventually as a full stack engineer. 
+              <p className=" text-3xl text-gray-900 hover:text-gray-900">I am a recent <a href class="LHL" onClick={()=> window.open("http://www.lighthouselabs.ca")}>Lighthouse Labs</a> Web Development Bootcamp alumni. During the bootcamp I learned and refined skills in <em>Git, CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React, Ruby, Ruby-on-Rails</em>, and other software competencies both in the front and backend. I created multiple projects individually and collaboratively, as can be seen in the <a class="LHL" href="https://ethomlison.netlify.app/project">projects</a> tab. I have recently begun working at <a href="https://www.tlcsolutions.ca/">TLC Solutions</a> as a junior fullstack developer with hopes of becoming a fullstack developer under the guidance of my superiors.
               </p>
               <br></br>
               <br></br>
