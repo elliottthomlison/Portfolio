@@ -5,6 +5,6 @@ My portfolio was built using React, Sanity.io, Tailwind CSS, Material-UI, Expres
 ## Final Project 
 <img src="https://github.com/elliottthomlison/Portfolio/blob/main/src/images/Portfolio.gif?raw=true"/>
 
-## Available Scripts
+## Setup
 
 - To duplicate this project feel free to `git clone` it and then `npm install` the dependencies. 
