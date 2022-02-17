@@ -42,12 +42,12 @@ export default function Home() {
                       .pauseFor(500)
                       .deleteAll();
                     typewriter
-                      .typeString("I am a fullstack developer. 👨‍💻")
+                      .typeString("I am a full stack developer. 👨‍💻")
                       .pauseFor(500)
                       .deleteAll();
                     typewriter
                       .typeString(
-                        "I was previously a teacher and correctional officer. 👮"
+                        "I was previously a teacher and a correctional officer. 👮"
                       )
                       .pauseFor(500)
                       .deleteAll();
@@ -81,22 +81,19 @@ export default function Home() {
               Web Development Bootcamp alumni. During the bootcamp I learned and
               refined skills in{" "}
               <em>
-                Git, CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, React,
-                Ruby, Ruby-on-Rails
+                Git, CSS, HTML, JavaScript, React, jQuery, Ajax, SQL, Ruby, Ruby-on-Rails
               </em>
-              , and other software competencies both in the front and backend. I
+              , and other software competencies both in the front and back end. I
               created multiple projects individually and collaboratively, as can
               be seen in the{" "}
               <a class="LHL" href="https://ethomlison.netlify.app/project">
                 projects
               </a>{" "}
-              tab. I have recently begun working at{" "}
+              tab. I have been working at{" "}
               <a class="LHL" href="https://www.tlcsolutions.ca/">
                 TLC Solutions
               </a>{" "}
-              as a junior full stack developer with hopes of becoming
-              increasingly competent under the guidance of senior developers
-              there.
+              as a full stack developer where I have been collaborating with a couple senior developers, creating new features to apps, writing documentation, and testing projects regularly.
             </p>
             <br></br>
             <br></br>
