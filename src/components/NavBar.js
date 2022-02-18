@@ -38,7 +38,7 @@ export default function NavBar() {
               <Ripple>Contact Me</Ripple>
             </a>     
             <a className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
-              <SocialIcon url='https://medium.com/@elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 42, width: 42}}/> 
+              {/* <SocialIcon url='https://medium.com/@elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 42, width: 42}}/>  */}
               <SocialIcon url='https://www.linkedin.com/in/elliott-thomlison/' className='mr-4' target='_blank' fgColor='#fff' style={{height: 42, width: 42}}/>
               <SocialIcon url='https://github.com/elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 42, width: 42}}/> 
             </a>
