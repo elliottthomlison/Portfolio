@@ -26,9 +26,9 @@ export default function NavBar() {
             <NavLink to="/project" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 text-4xl font-bold cursive tracking-widest">
               <Ripple>Projects</Ripple>
             </NavLink>        
-            <NavLink to="/post" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 text-4xl font-bold cursive tracking-widest"> 
+            {/* <NavLink to="/post" exact activeClassName="text-white" className="inflex-flex items-center py-6 px-6 text-blue-100 text-4xl font-bold cursive tracking-widest"> 
               <Ripple>Blog Posts</Ripple>
-            </NavLink>
+            </NavLink> */}
             <a id="resumeButton" className="no-underline button text-white inflex-flex items-center py-6 px-6 text-blue-100 text-4xl font-bold cursive tracking-widest">
               <Ripple>
                 <td onClick={()=> window.open("https://drive.google.com/file/d/1ofwPKrdr4Rjd28MfLbxG4xB1ZFVm8uSf/view?usp=sharing")}>Resume</td>
@@ -38,7 +38,7 @@ export default function NavBar() {
               <Ripple>Contact Me</Ripple>
             </a>     
             <a className="inflex-flex items-center py-6 px-6 text-blue-100 hover:text-blue-900 text-4xl font-bold cursive tracking-widest">
-              <SocialIcon url='https://medium.com/@elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 42, width: 42}}/> 
+              {/* <SocialIcon url='https://medium.com/@elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 42, width: 42}}/>  */}
               <SocialIcon url='https://www.linkedin.com/in/elliott-thomlison/' className='mr-4' target='_blank' fgColor='#fff' style={{height: 42, width: 42}}/>
               <SocialIcon url='https://github.com/elliottthomlison' className='mr-4' target='_blank' fgColor='#fff' style={{height: 42, width: 42}}/> 
             </a>
