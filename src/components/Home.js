@@ -89,11 +89,11 @@ export default function Home() {
               <a class="LHL" href="https://ethomlison.netlify.app/project">
                 projects
               </a>{" "}
-              tab. I have been working at{" "}
+              tab. I expanded on my skills while working at{" "}
               <a class="LHL" href="https://www.tlcsolutions.ca/">
                 TLC Solutions
               </a>{" "}
-              as a full stack developer where I have been collaborating with a couple senior developers, creating new features to apps, writing documentation, and testing projects regularly.
+              as a full stack developer where I collaborated with a couple senior developers, creating new features to apps, writing documentation, and testing projects regularly. We utilized Vuejs, Laravel, and MySql throughout my stay building out an application for a customer.
             </p>
             <br></br>
             <br></br>
