@@ -93,7 +93,7 @@ export default function Home() {
               <a class="LHL" href="https://www.tlcsolutions.ca/">
                 TLC Solutions
               </a>{" "}
-              as a full stack developer where I collaborated with a couple senior developers, creating new features to apps, writing documentation, and testing projects regularly. We utilized Vuejs, Laravel, and MySql throughout my stay building out an application for a customer.
+              as a full stack developer where I collaborated with a couple of senior developers, creating new features to apps, writing documentation, and testing projects regularly. We utilized Vuejs, Laravel, and MySql throughout my stay building out an application for a customer.
             </p>
             <br></br>
             <br></br>
