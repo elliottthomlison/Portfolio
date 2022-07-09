@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect";
 import "./home.css";
+import Bob from "../images/Bob.gif"
 
 export default function Home() {
   const [state, setState] = useState({ value: "" });
@@ -23,7 +24,15 @@ export default function Home() {
   return (
     <main className="relative">
       <div className="lg:pt-20 container mx-auto relative ">
-        <h1 className="text-6xl text-gray-900 font-bold cursive lg:leading-snug home-name hover:text-gray-900 text-center"></h1>
+        <h6 className="text-sm font-bold cursive sm home-name hover:text-gray-900 text-center">
+          This isn't even my final form! 
+          <br/>
+          <br/>
+          Hold onto your horses because I have a new portfolio coming soon. 
+        </h6>
+        <section class="m-auto text-center">
+          <img class="m-auto" src={Bob} />
+        </section>
         <section class="mt-10">
           <div className="text-lg flex flex-col justify-center">
             <h2
